@@ -1,0 +1,1280 @@
+//-----------------------------------------------------------------------------
+// Craftsman & Marksman: Life is feudal
+//-----------------------------------------------------------------------------
+
+function createPopUpScroll()
+{
+   %gui = new GuiScrollCtrl()
+   {
+      hScrollBar = "alwaysOff";
+      horizSizing = "width";
+      vertSizing = "height";
+      profile = "GuiScrollSkillInfoProfile";
+      tooltipProfile = "GuiToolTipProfile";
+      constantThumbHeight = true;
+      childMargin = "0 0";
+      trackOffset = 8;
+      lockHorizScroll = true;
+      arrowSadowSize = 7;
+      addContentWidth = 27;
+   };
+   return %gui;
+}
+//-----------------------------------------------------------------------------
+
+function createSkillStatWindow()
+{
+   %wnd = new GuiWindowCtrl( GuiSkillStatWindow ) {
+      text = GetMessageIDText(1105); // character
+      resizeWidth = "0";
+      resizeHeight = "0";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "0";
+      canMaximize = "0";
+      canCollapse = "0";
+      canHideOnFreelook = "1";
+      canLock = "1";
+      canSetup = "1";
+      edgeSnap = "1";
+      margin = "0 0 0 0";
+      padding = "0 0 0 0";
+      anchorTop = "1";
+      anchorBottom = "0";
+      anchorLeft = "1";
+      anchorRight = "0";
+      position = "200 200";
+      extent = "1295 950";
+      minExtent = "1295 950";
+      maxExtent = "1295 950";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      profile = "GuiWindowProfile";
+      visible = "1";
+      active = "1";
+      tooltipProfile = "GuiToolTipProfile";
+      hovertime = "1000";
+      isContainer = "1";
+      canSave = "0";
+      canSaveDynamicFields = "0";
+      closeCommand ="";
+	   haveTitle = "0";
+	   tilingBorder = "1";
+
+      new GuiContainer() {
+         docking = Client;
+         canSaveDynamicFields = "0";
+         Enabled = "1";
+         Profile = "GuiGrayTextureProfile";
+         canSave = "1";
+         Visible = "1";
+         tooltipprofile = "GuiToolTipProfile";
+         hovertime = "1000";
+
+         new GuiContainer() {
+            canSaveDynamicFields = "0";
+            position = "0 0";
+            extent = "1200 143";
+            Enabled = "1";
+            Profile = "GuiBaseTextProfile";
+            canSave = "1";
+            Visible = "1";
+            tooltipprofile = "GuiToolTipProfile";
+            hovertime = "1000";
+
+            new GuiTextCtrl() {
+               position = "820 10";
+               extent = "500 50";
+               canSaveDynamicFields = "0";
+               Enabled = "1";
+               Profile = "GuiSkillStatNameProfile";
+               canSave = "1";
+               Visible = "1";
+               tooltipprofile = "GuiToolTipProfile";
+               hovertime = "1000";
+               //text = "Информация о персонаже";
+            };
+
+            new GuiTextCtrl(GuiNameTextCtrl) {
+               position = "50 10";
+               extent = "300 50";
+               canSaveDynamicFields = "0";
+               Enabled = "1";
+               Profile = "GuiSkillStatNameProfile";
+               canSave = "1";
+               Visible = "1";
+               tooltipprofile = "GuiToolTipProfile";
+               hovertime = "1000";
+               text = "";
+            };
+   
+            //SkillStatBtn
+            /*new GuiBitmapCtrl() 
+            {
+               position = "495 18";
+               extent = "485 58";
+               canHit = "true";
+               visible = "true";
+               profile = "GuiSkillStatImageProfile";
+               imageIndex = getSkillStatBtnPanel();
+   
+               new GuiStackControl()
+               {
+                  position = "40 6";
+                  extent = "400 42";
+                  minExtent = "8 8";
+                  horizSizing = "center";
+                  profile = "GuiDefaultProfile";
+                  changeChildSizeToFit = false;
+                  changeChildPosition = false;
+                  //dynamicNonStackExtent = true;
+                  //LeftIndent = 26;
+                  stackingType = "Horizontal";
+                  padding = 25;
+
+                  new GuiIconButtonCtrl(GuiSkillStatshowSkillsBtn)
+                  {
+                     extent = "200 42";
+                     position = "0 10";
+                     command = "showSkills();";
+                     profile = "GuiSkillStatTopBtnProfile";
+                     HorizSizing = "left";
+                     vertSizing = "center";
+                     text = GetMessageIDText(1191); //Skills
+                     imageIndex = getSkillBtnIcon();
+                     renderBorder = false;
+                     buttonType = "RadioButton";
+                     groupNum = 1;
+                     defaultState = true;
+                     textMargin = 5;
+                     autoSize = true;
+                  };
+      
+                  new GuiIconButtonCtrl(GuiSkillStatshowStatsBtn)
+                  {
+                     extent = "200 42";
+                     position = "200 10";
+                     HorizSizing = "left";
+                     vertSizing = "center";
+                     command = "showStats();";
+                     profile = "GuiSkillStatTopBtnProfile";
+                     text = GetMessageIDText(1192); //Stats
+                     imageIndex = getStatBtnIcon();
+                     renderBorder = false;
+                     buttonType = "RadioButton";
+                     groupNum = 1;
+                     defaultState = false;
+                     textMargin = 5;
+                     autoSize = true;
+                  };
+               };
+            };*/
+         };
+
+         new GuiZoomPanel(GuiSkillPanel) {
+            canSaveDynamicFields = "0";
+            Enabled = "1";
+            isContainer = "1";
+            profile = "GuiDarkGreyProfile";
+            position = "0 80";
+            extent = "1255 745";
+            minScale = 50;
+            maxScale = 100;
+            stepScale = 10;
+            command = "closeSkillInfo();";
+
+            new GuiBitmapCtrl() 
+            {
+               position = "0 0";
+               extent = "1255 745";
+               minExtent = "1255 745";
+               canHit = "false";
+               visible = "true";
+               //profile = "GuiBaseTextProfile";
+               profile = "GuiSkillStatImageProfile";
+               //bitmap = "gui/images/skillmap.png";
+               imageIndex = getSkillsBackground();
+               wrap = "1";
+               internalName = "SkillsBackground";
+            };
+
+            new GuiBitmapCtrl() 
+            {
+               position = "0 0";
+               extent = "194 194";
+               canHit = "false";
+               visible = "true";
+               profile = "GuiSkillStatImageProfile";
+               //bitmap = "gui/images/skillmap.png";
+               imageIndex = getSkillsDecorUpLeft();
+			      internalName = "SkillsDecorUpLeft";
+            };
+
+            new GuiBitmapCtrl() 
+            {
+               position = "17 194";
+               extent = "11 992";
+               canHit = "false";
+               visible = "true";
+               profile = "GuiSkillStatImageProfile";
+               //bitmap = "gui/images/skillmap.png";
+               imageIndex = getSkillsDecorLeftBorder();
+               wrap = "1";
+               internalName = "SkillsDecorLeftBorder";
+            };
+
+            new GuiBitmapCtrl() 
+            {
+               position = "879 0";
+               extent = "194 194";
+               canHit = "false";
+               visible = "true";
+               profile = "GuiSkillStatImageProfile";
+               //bitmap = "gui/images/skillmap.png";
+               imageIndex = getSkillsDecorUpRight();
+			      internalName = "SkillsDecorUpRight";
+            };
+
+            new GuiBitmapCtrl() 
+            {
+               position = "194 16";
+               extent = "685 11";
+               canHit = "false";
+               visible = "true";
+               profile = "GuiSkillStatImageProfile";
+               //bitmap = "gui/images/skillmap.png";
+               imageIndex = getSkillsDecorUpBorder();
+               wrap = "1";
+               internalName = "SkillsDecorUpBorder";
+            };
+
+            new GuiBitmapCtrl() 
+            {
+               position = "0 1186";
+               extent = "194 194";
+               canHit = "false";
+               visible = "true";
+               profile = "GuiSkillStatImageProfile";
+               //bitmap = "gui/images/skillmap.png";
+               imageIndex = getSkillsDecorDownLeft();
+			   internalName = "SkillsDecorDownLeft";
+            };
+
+            new GuiBitmapCtrl() 
+            {
+               position = "1045 194";
+               extent = "11 992";
+               canHit = "false";
+               visible = "true";
+               profile = "GuiSkillStatImageProfile";
+               //bitmap = "gui/images/skillmap.png";
+               imageIndex = getSkillsDecorRightBorder();
+               wrap = "1";
+               internalName = "SkillsDecorRightBorder";
+            };
+
+            new GuiBitmapCtrl() 
+            {
+               position = "879 1186";
+               extent = "194 194";
+               canHit = "false";
+               visible = "true";
+               profile = "GuiSkillStatImageProfile";
+               //bitmap = "gui/images/skillmap.png";
+               imageIndex = getSkillsDecorDownRight();
+			      internalName = "SkillsDecorDownRight";
+            };
+
+            new GuiBitmapCtrl() 
+            {
+               position = "194 1353";
+               extent = "685 11";
+               canHit = "false";
+               visible = "true";
+               profile = "GuiSkillStatImageProfile";
+               //bitmap = "gui/images/skillmap.png";
+               imageIndex = getSkillsDecorDownBorder();
+			      wrap = "1";
+			      internalName = "SkillsDecorDownBorder";
+            };
+
+            /*new GuiBitmapCtrl(GuiBitmapSelectSkill) 
+            {
+               position = "0 0";
+               extent = "114 157";
+               canHit = "false";
+               visible = "false";
+               profile = "GuiSkillStatImageProfile";
+               imageIndex = getSelectSkill();
+            };*/
+
+         };
+
+         new GuiBitmapCtrl(SkillsVScrollFrame) 
+         {
+            position = "1235 90";
+            extent = "25 650";
+            canHit = "false";
+            visible = "true";
+            profile = "GuiSkillStatImageProfile";
+            imageIndex = getCreateWorldWindowBackground();
+         };
+
+         new GuiBitmapCtrl(SkillsVScrollTrack) 
+         {
+            position = "1235 150";
+            extent = "25 550";
+            canHit = "false";
+            visible = "true";
+            profile = "GuiSkillStatImageProfile";
+            imageIndex = getVerticalScrollBackground();
+         };
+
+         new GuiBitmapCtrl(SkillsVerticalSlider) 
+         {
+            position = "1235 150";
+            extent = "22 79";
+            canHit = "false";
+            visible = "true";
+            profile = "GuiSkillStatImageProfile";
+            imageIndex = getVScrollTopNormal();
+         };
+
+         new GuiBitmapCtrl(SkillsHScrollFrame) 
+         {
+            position = "15 796";
+            extent = "1250 25";
+            canHit = "false";
+            visible = "true";
+            profile = "GuiSkillStatImageProfile";
+            imageIndex = getCreateWorldWindowBackground();
+         };
+
+         new GuiBitmapCtrl(SkillsHScrollTrack) 
+         {
+            position = "150 796";
+            extent = "950 25";
+            canHit = "false";
+            visible = "true";
+            profile = "GuiSkillStatImageProfile";
+            imageIndex = getHorizontalScrollBackground();
+         };
+
+         new GuiBitmapCtrl(SkillsHorizontalSlider) 
+         {
+            position = "150 796";
+            extent = "79 22";
+            canHit = "false";
+            visible = "true";
+            profile = "GuiSkillStatImageProfile";
+            imageIndex = getHScrollTopNormal();
+         };
+
+        new GuiBitmapCtrl()
+        {
+           position = "0 75";
+           extent = "1255 39";
+           profile = "CmComboStackButtonDef";
+           imageIndex = getOptionsTopBorder();
+           wrap = "1";
+        };
+
+		/*new GuiBitmapCtrl()
+		{
+			position = "735 0";
+			extent = "16 525";
+			visible = "true";
+			profile = "EquipmentBaseProfile";
+			imageIndex = getSmallWndLeftBorder();
+			wrap = "1";
+		};*/
+
+         // Panel Info
+         new GuiAnimatePanel(GuiSkillInfoPanel) {
+            position = "745 75";
+            canSaveDynamicFields = "0";
+            extent = "395 495";
+            profile= "GuiBorderGrayTextureProfile";
+            AnimateDirection = "Right";
+            AnimateSpeed = 1500;
+            Visible = "0";
+            renderDirectionBorder = true;
+         };
+
+         //Skillcap + skill btn
+         new GuiBitmapCtrl(SkillBtnPnl) 
+         {
+            position = "238 45";
+            extent = "810 88";
+            canHit = "true";
+            visible = "true";
+            profile = "GuiSkillStatImageProfile";
+            imageIndex = getSkillcapBackground();
+
+            new GuiStackControl()
+            {
+               position = "41 9";
+               extent = "727 40";
+               minExtent = "8 8";
+               horizSizing = "center";
+               profile = "GuiDefaultProfile";
+               changeChildSizeToFit = false;
+               changeChildPosition = false;
+               //dynamicNonStackExtent = true;
+               //LeftIndent = 26;
+               stackingType = "Horizontal";
+               padding = 25;
+
+               new GuiIconButtonCtrl(ShowCraftSkillBtn)
+               {
+                  extent = "150 30";
+                  position = "157 6";
+                  HorizSizing = "left";
+                  vertSizing = "center";
+                  command = "showCraftSkill();";
+                  profile = "GuiSkillStatBtnSkilsProfile";
+                  text = GetMessageIDText(861); //Craft Skills
+                  imageIndex = getCraftSkill();
+                  renderBorder = false;
+                  buttonType = "RadioButton";
+                  groupNum = 2;
+                  defaultState = false;
+                  textMargin = 5;
+                  autoSize = true;
+               };
+
+               new GuiIconButtonCtrl(ShowCombatSkillBtn)
+               {
+                  extent = "150 30";
+                  position = "323 6";
+                  HorizSizing = "left";
+                  vertSizing = "center";
+                  command = "showCombatSkill();";
+                  profile = "GuiSkillStatBtnSkilsProfile";
+                  text = GetMessageIDText(862); //Combat Skills;
+                  imageIndex = getCombatSkill();
+                  renderBorder = false;
+                  buttonType = "RadioButton";
+                  groupNum = 2;
+                  defaultState = false;
+                  textMargin = 5;
+                  autoSize = true;
+               };
+      
+               new GuiIconButtonCtrl(ShowMinorSkillBtn)
+               {
+                  extent = "150 30";
+                  position = "512 6";
+                  HorizSizing = "left";
+                  vertSizing = "center";
+                  command = "showMinorSkill();";
+                  profile = "GuiSkillStatBtnSkilsProfile";
+                  text = GetMessageIDText(863); //Minor Skills;
+                  imageIndex = getMinorSkill();
+                  renderBorder = false;
+                  buttonType = "RadioButton";
+                  groupNum = 2;
+                  defaultState = false;
+                  textMargin = 5;
+                  autoSize = true;
+               };
+            };
+
+            new cmDoubleBarWidget(SkillcapBar)
+            {
+               position = "23 43";
+               extent = "781 43";
+               canHit = "false";
+               imageIndex = getSkillcapBar();//works for now, but it can 
+               showSecondNum = false;
+               profile = "GuiSkillStatImageProfile";
+               showNumber = false;
+               leftBarOffset = 0;
+            };
+
+            new GuiTextCtrl(CurSkillcapVal)
+            {
+               position = "50 41";
+               extent = "100 30";
+               Profile = "GuiSkillcapNumProfile";
+            };
+
+            new GuiTextCtrl(MaxSkillcapVal)
+            {
+               position = "661 41";
+               extent = "100 30";
+               Profile = "GuiSkillcapRightNumProfile";
+            };
+
+            new GuiTextCtrl()
+            {
+               position = "379 41";
+               extent = "100 30";
+               HorizSizing = "center";
+               Profile = "GuiSkilcapTextProfile";
+               text = GetMessageIDText(1122); //Skillcap
+            };
+         };
+
+         new GuiBitmapCtrl(SkillcapBorder) 
+         {
+            position = "228 36";
+            extent = "827 99";
+            canHit = "false";
+            visible = "true";
+            profile = "GuiSkillStatImageProfile";
+            imageIndex = getSkillcapBorder();
+         };
+
+         //Char STats
+         /*new GuiCharControl(GuiCharInfoPnl) {
+            canSaveDynamicFields = "0";
+            position = "0 0";
+            extent = "1014 743";
+            HorizSizing = "width";
+            VertSizing = "height";
+            Enabled = "1";
+            Profile = "GuiModelessDialogProfile";
+            Visible = "0";
+
+            new GuiTextCtrl() {
+               position = "310 90";
+               extent = "150 30";
+               Profile = "GuiSkillStatLabelTextProfile";
+               text = GetMessageIDText(875); //Clan Status
+            };
+
+            new GuiBitmapCtrl() 
+            {
+               position = "51 120";
+               extent = "435 71";
+               canHit = "false";
+               visible = "true";
+               profile = "GuiSkillStatImageProfile";
+               imageIndex = getCharacterStatusBorder();
+
+               new GuiTextCtrl(GuiGuildTitulText) {
+                  position = "43 19";
+                  extent = "400 30";
+                  Profile = "GuiText9pxProfile";
+                  text="";
+               };
+            };
+
+            new GuiTextCtrl() {
+               position = "772 90";
+               extent = "150 30";
+               Profile = "GuiSkillStatLabelTextProfile";
+               text = GetMessageIDText(876); //Rank
+            };
+
+
+            new GuiPopUpMenuCtrlEx(GuiTitulPopup) {
+               position = "513 120";
+               extent = "435 71";
+               Profile = "GuiSkillPopUpProfile";
+               backPnlProfile = "GuiPopUpBorder";
+               buttonOffset = 5;
+               cellHeight = 46;
+               createScrollCommand = "createPopUpScroll();";
+               maxPopupHeight = 235;
+               addedPopupWidth = -30;
+               addScrollSize = "8 0";
+            };
+
+            //health
+            new GuiControl() {
+               position = "68 223";
+               extent = "400 80";
+               Profile = "GuiBaseTextProfile";
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getHealthPanel();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "366 65";
+                  position = "32 0";
+               };
+
+               new cmDoubleBarWidget(StatHitpointsBar)
+               {
+                  position = "61 28";
+                  extent = "317 8";
+                  canHit = "false";
+                  imageIndex = getHPMiniBar();
+                  showSecondNum = true;
+                  profile = "GuiSkillStatImageProfile";
+                  showNumber = false;
+                  leftBarOffset = 0;
+                  rightDecorOffset = 0;
+               };
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getHealthIconBackground();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "65 65";
+                  position = "0 0";
+
+                  new GuiBitmapCtrl()
+                  {
+                     imageIndex = getHPPicture();
+                     profile = "GuiSkillStatImageProfile";
+                     extent = "33 32";
+                     position = "19 19";
+                  };
+               };
+
+               new GuiTextCtrl()
+               {
+                  position = "70 5";
+                  extent = "250 20";
+                  Profile = "GuiSkillStatLabelProfile";
+                  text = GetMessageIDText(1102); //Soft Hitpoints
+               };
+
+               new CmGuiDoubleValTextCtrl(SoftHitCtrl) {
+                  position = "229 6";
+                  extent = "150 20";
+                  Profile = "GuiSkillStatDoubleValSoftProfile";
+               };
+
+               new GuiTextCtrl()
+               {
+                  position = "70 37";
+                  extent = "250 20";
+                  Profile = "GuiSkillStatLabelProfile";
+                  text = GetMessageIDText(1101);  //Hard Hitpoints
+               };
+
+               new CmGuiDoubleValTextCtrl(HardHitCtrl) {
+                  position = "229 38";
+                  extent = "150 20";
+                  Profile = "GuiSkillStatDoubleValHardProfile";
+               };
+
+               new GuiBitmapButtonCtrl()
+               {
+                  extent = "32 32";
+                  position = "31 46";
+                  command = "showHealthBar();";
+                  profile = "GuiSkillStatImageProfile";
+                  imageIndex = getBtnOpenWnd();
+               };
+            };
+
+            //stamina
+            new GuiControl() {
+               position = "68 308";
+               extent = "400 80";
+               Profile = "GuiBaseTextProfile";
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getHealthPanel();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "366 65";
+                  position = "32 0";
+               };
+
+               new cmDoubleBarWidget(StatStaminaBar)
+               {
+                  position = "61 28";
+                  extent = "317 8";
+                  canHit = "false";
+                  imageIndex = getStamMiniBar();
+                  showSecondNum = true;
+                  profile = "GuiSkillStatImageProfile";
+                  showNumber = false;
+                  leftBarOffset = 0;
+                  rightDecorOffset = 0;
+               };
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getHealthIconBackground();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "65 65";
+                  position = "0 0";
+
+                  new GuiBitmapCtrl()
+                  {
+                     imageIndex = getStaminaPicture();
+                     profile = "GuiSkillStatImageProfile";
+                     extent = "33 32";
+                     position = "16 16";
+                  };
+               };
+
+               new GuiTextCtrl()
+               {
+                  position = "70 5";
+                  extent = "250 20";
+                  Profile = "GuiSkillStatLabelProfile";
+                  text = GetMessageIDText(1104); //Soft Stamina
+               };
+
+               new CmGuiDoubleValTextCtrl(SoftStamCtrl) {
+                  position = "229 6";
+                  extent = "150 20";
+                  Profile = "GuiSkillStatDoubleValSoftProfile";
+               };
+
+               new GuiTextCtrl()
+               {
+                  position = "70 37";
+                  extent = "250 20";
+                  Profile = "GuiSkillStatLabelProfile";
+                  text = GetMessageIDText(1103); //Hard Stamina
+               };
+
+               new CmGuiDoubleValTextCtrl(HardStamCtrl) {
+                  position = "229 38";
+                  extent = "150 20";
+                  Profile = "GuiSkillStatDoubleValHardProfile";
+               };
+
+               new GuiBitmapButtonCtrl()
+               {
+                  extent = "32 32";
+                  position = "31 46";
+                  command = "showStaminaBar();";
+                  profile = "GuiSkillStatImageProfile";
+                  imageIndex = getBtnOpenWnd();
+               };
+            };
+
+            //Hunger
+            new GuiControl() {
+               position = "68 398";
+               extent = "400 100";
+               Profile = "GuiBaseTextProfile";
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getHungerPanel();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "365 84";
+                  position = "32 0";
+               };
+
+               new cmDoubleBarWidget(StatHungerBar)
+               {
+                  position = "56 38";
+                  extent = "322 4";
+                  canHit = "false";
+                  imageIndex = getHungerMiniBar();
+                  showSecondNum = false;
+                  profile = "GuiSkillStatImageProfile";
+                  showNumber = false;
+                  leftBarOffset = 0;
+                  rightDecorOffset = 0;
+               };
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getHealthIconBackground();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "65 65";
+                  position = "0 0";
+
+                  new GuiBitmapCtrl()
+                  {
+                     imageIndex = getHungerPicture();
+                     profile = "GuiSkillStatImageProfile";
+                     extent = "33 32";
+                     position = "16 16";
+                  };
+               };
+
+               new GuiTextCtrl()
+               {
+                  position = "70 13";
+                  extent = "250 20";
+                  Profile = "GuiSkillStatLabelProfile";
+                  text = GetMessageIDText(1098);  //Hunger
+               };
+
+               new CmGuiDoubleValTextCtrl(HungerCtrl) {
+                  position = "229 14";
+                  extent = "150 20";
+                  Profile = "GuiSkillStatDoubleValSoftProfile";
+               };
+
+               new GuiBitmapButtonCtrl()
+               {
+                  extent = "32 32";
+                  position = "31 46";
+                  command = "showHungerBar();";
+                  profile = "GuiSkillStatImageProfile";
+                  imageIndex = getBtnOpenWnd();
+               };
+
+               new GuiTextCtrl() {
+                  position = "70 58";
+                  extent = "250 20";
+                  Profile = "GuiSkillStatLabelProfile";
+                  text = GetMessageIDText(1099); //Food Quality multiplier
+               };
+
+               new GuiTextCtrl(GuiFoodQualityVal) {
+                  position = "330 58";
+                  extent = "50 20";
+                  Profile = "GuiSkillStatValProfile";
+                  text="0.0";
+               };
+
+            };
+
+            //Alignment
+            new GuiControl() {
+               position = "68 507";
+               extent = "400 80";
+               Profile = "GuiBaseTextProfile";
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getHealthPanel();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "366 65";
+                  position = "32 0";
+               };
+
+               new cmDoubleBarWidget(StatAlignmentBar)
+               {
+                  position = "51 42";
+                  extent = "327 4";
+                  canHit = "false";
+                  imageIndex = getAlignmentMiniBar();
+                  showSecondNum = false;
+                  profile = "GuiSkillStatImageProfile";
+                  showNumber = false;
+                  leftBarOffset = 0;
+                  rightDecorOffset = 0;
+               };
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getHealthIconBackground();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "65 65";
+                  position = "0 0";
+
+                  new GuiBitmapCtrl()
+                  {
+                     imageIndex = getAlignmentPicture();
+                     profile = "GuiSkillStatImageProfile";
+                     extent = "33 32";
+                     position = "16 16";
+                  };
+               };
+
+               new GuiTextCtrl()
+               {
+                  position = "70 17";
+                  extent = "250 20";
+                  Profile = "GuiSkillStatLabelProfile";
+                  text = GetMessageIDText(1100); //Alignment
+               };
+
+               new CmGuiDoubleValTextCtrl(AlignmentCtrl) {
+                  position = "229 18";
+                  extent = "150 20";
+                  Profile = "GuiSkillStatDoubleValSoftProfile";
+               };
+
+               new GuiBitmapButtonCtrl()
+               {
+                  extent = "32 32";
+                  position = "31 46";
+                  command = "showAlignmentBar();";
+                  profile = "GuiSkillStatImageProfile";
+                  imageIndex = getBtnOpenWnd();
+               };
+            };
+
+            //strength
+            new GuiControl() {
+               position = "553 221";
+               extent = "400 80";
+               Profile = "GuiBaseTextProfile";
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getStatPanel();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "317 47";
+                  position = "25 2";
+               };
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getStrengthIcon();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "50 50";
+                  position = "0 0";
+               };
+
+               new GuiTextCtrl() {
+                  position = "56 14";
+                  extent = "250 20";
+                  Profile = "GuiSkillStatLabelProfile";
+                  text = GetMessageIDText(1091); //Strength
+               };
+
+               new CmGuiDoubleValTextCtrl(GuiStrengthVal) {
+                  position = "258 15";
+                  extent = "50 20";
+                  Profile = "GuiSkillStatValProfile";
+                  text="";
+                  skipSecondValue = true;
+               };
+
+               new GuiSkillLockButton(GuiStrengthLockBtn)
+               {
+                  imageIndex = getStatBtnStatus();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "61 59";
+                  position = "312 -4";
+                  command = "changeStrengthLock();";
+               };
+            };
+
+            //agility
+            new GuiControl() {
+               position = "553 278";
+               extent = "400 80";
+               Profile = "GuiBaseTextProfile";
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getStatPanel();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "317 47";
+                  position = "25 2";
+               };
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getAgilityIcon();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "50 50";
+                  position = "0 0";
+               };
+
+               new GuiTextCtrl() {
+                  position = "56 14";
+                  extent = "250 20";
+                  Profile = "GuiSkillStatLabelProfile";
+                  text = GetMessageIDText(1092); //Agility
+               };
+
+               new CmGuiDoubleValTextCtrl(GuiAgilityVal) {
+                  position = "258 15";
+                  extent = "50 20";
+                  Profile = "GuiSkillStatValProfile";
+                  text="";
+                  skipSecondValue = true;
+               };
+
+               new GuiSkillLockButton(GuiAgilityLockBtn)
+               {
+                  imageIndex = getStatBtnStatus();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "61 59";
+                  position = "312 -4";
+                  command = "changeAgilityLock();";
+               };
+
+            };
+
+            //Constitution
+            new GuiControl() {
+               position = "553 333";
+               extent = "400 80";
+               Profile = "GuiBaseTextProfile";
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getStatPanel();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "317 47";
+                  position = "25 2";
+               };
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getConstitutionIcon();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "50 50";
+                  position = "0 0";
+               };
+
+               new GuiTextCtrl() {
+                  position = "56 14";
+                  extent = "250 20";
+                  Profile = "GuiSkillStatLabelProfile";
+                  text = GetMessageIDText(1093); //Constitution
+               };
+
+               new CmGuiDoubleValTextCtrl(GuiConstitutionVal) {
+                  position = "258 15";
+                  extent = "50 20";
+                  Profile = "GuiSkillStatValProfile";
+                  text="";
+                  skipSecondValue = true;
+               };
+
+               new GuiSkillLockButton(GuiConstitutionLockBtn)
+               {
+                  imageIndex = getStatBtnStatus();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "61 59";
+                  position = "312 -4";
+                  command = "changeConstitutionLock();";
+               };
+
+            };
+
+            //Intelect
+            new GuiControl() {
+               position = "553 388";
+               extent = "400 80";
+               Profile = "GuiBaseTextProfile";
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getStatPanel();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "317 47";
+                  position = "25 2";
+               };
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getIntellectIcon();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "50 50";
+                  position = "0 0";
+               };
+
+               new GuiTextCtrl() {
+                  position = "56 14";
+                  extent = "250 20";
+                  Profile = "GuiSkillStatLabelProfile";
+                  text = GetMessageIDText(1095); //Intellect
+               };
+
+               new CmGuiDoubleValTextCtrl(GuiIntellectVal) {
+                  position = "258 15";
+                  extent = "50 20";
+                  Profile = "GuiSkillStatValProfile";
+                  text="";
+                  skipSecondValue = true;
+               };
+
+               new GuiSkillLockButton(GuiIntellectLockBtn)
+               {
+                  imageIndex = getStatBtnStatus();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "61 59";
+                  position = "312 -4";
+                  command = "changeIntellectLock();";
+               };
+            };
+
+            //Willpower
+            new GuiControl() {
+               position = "553 443";
+               extent = "400 80";
+               Profile = "GuiBaseTextProfile";
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getStatPanel();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "317 47";
+                  position = "25 2";
+               };
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getWillpowerIcon();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "50 50";
+                  position = "0 0";
+               };
+
+               new GuiTextCtrl() {
+                  position = "56 14";
+                  extent = "250 20";
+                  Profile = "GuiSkillStatLabelProfile";
+                  text = GetMessageIDText(1094); //Willpower
+               };
+
+               new CmGuiDoubleValTextCtrl(GuiWillpowerVal) {
+                  position = "258 15";
+                  extent = "50 20";
+                  Profile = "GuiSkillStatValProfile";
+                  text="";
+                  skipSecondValue = true;
+               };
+
+               new GuiSkillLockButton(GuiWillpowerLockBtn)
+               {
+                  imageIndex = getStatBtnStatus();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "61 59";
+                  position = "312 -4";
+                  command = "changeWillpowerLock();";
+               };
+            };
+
+            //Luck
+            new GuiControl() {
+               position = "553 516";
+               extent = "400 80";
+               Profile = "GuiBaseTextProfile";
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getLuckPanel();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "187 45";
+                  position = "25 2";
+               };
+
+               new GuiBitmapCtrl()
+               {
+                  imageIndex = getLuckIcon();
+                  profile = "GuiSkillStatImageProfile";
+                  extent = "50 50";
+                  position = "0 0";
+               };
+
+               new GuiTextCtrl() {
+                  position = "56 14";
+                  extent = "180 20";
+                  Profile = "GuiSkillStatLabelProfile";
+                  text = GetMessageIDText(1097); //Luck
+               };
+
+               new GuiTextCtrl(GuiLuckVal) {
+                  position = "130 15";
+                  extent = "50 20";
+                  Profile = "GuiSkillStatValProfile";
+                  text="0.0";
+               };
+            };
+
+            //statcap
+            new GuiBitmapCtrl(StatcapPnl) 
+            {
+               position = "93 611";
+               extent = "809 42";
+               canHit = "true";
+               visible = "true";
+               profile = "GuiSkillStatImageProfile";
+               imageIndex = getStatcapBackground();
+
+               new cmDoubleBarWidget(StatcapBar)
+               {
+                  position = "0 0";
+                  extent = "808 42";
+                  canHit = "false";
+                  imageIndex = getStatcapBar();
+                  showSecondNum = false;
+                  profile = "GuiSkillStatImageProfile";
+                  showNumber = false;
+                  leftBarOffset = 0;
+               };
+   
+               new GuiTextCtrl(CurStatcapVal)
+               {
+                  position = "50 3";
+                  extent = "100 30";
+                  Profile = "GuiSkillcapNumProfile";
+               };
+   
+               new GuiTextCtrl(MaxStatcapVal)
+               {
+                  position = "661 3";
+                  extent = "100 30";
+                  Profile = "GuiSkillcapRightNumProfile";
+               };
+   
+               new GuiTextCtrl()
+               {
+                  position = "379 3";
+                  extent = "100 30";
+                  HorizSizing = "center";
+                  Profile = "GuiSkilcapTextProfile";
+                  text = GetMessageIDText(1096); //StatCap
+               };
+            };
+
+            new GuiBitmapCtrl(StatcaBorder) 
+            {
+               position = "78 595";
+               extent = "843 72";
+               canHit = "false";
+               visible = "true";
+               profile = "GuiSkillStatImageProfile";
+               imageIndex = getStatcapBorder();
+            };
+         };*/
+      };
+   };//wnd
+
+   PlayGui.add(%wnd);
+
+   if(isObject(ClientMissionCleanupSet))
+      ClientMissionCleanupSet.add(%wnd);
+
+   return %wnd;
+}
+//-----------------------------------------------------------------------------
+
+function GuiSkillStatWindow::onWake( %this) 
+{
+   loadObjectPropertyXml(%this, "SkillStatWindow");
+
+   %skill_info = createSkillInfo();
+   GuiSkillInfoPanel.add(%skill_info);
+   if ($pref::Skills::curGroup == 1)
+   {
+      showCraftSkill();
+      ShowCraftSkillBtn.setStateOn(true);
+   }
+   else if ($pref::Skills::curGroup == 2)
+   {
+      showCombatSkill();
+      showCombatSkillBtn.setStateOn(true);
+   }
+   else if ($pref::Skills::curGroup == 3)
+   {
+      showMinorSkill();
+      showMinorSkillBtn.setStateOn(true);
+   }
+
+   GuiStrengthLockBtn.initTooltip(805, 806, 807);
+   GuiAgilityLockBtn.initTooltip(805, 806, 807);
+   GuiConstitutionLockBtn.initTooltip(805, 806, 807);
+   GuiIntellectLockBtn.initTooltip(805, 806, 807);
+   GuiWillpowerLockBtn.initTooltip(805, 806, 807);
+
+   GuiNameTextCtrl.text = getFirstName() SPC getLastName();
+}
+//-----------------------------------------------------------------------------
+
+function GuiSkillStatWindow::onSleep( %this) 
+{
+   saveObjectPropertyXml(%this, "SkillStatWindow");
+}
+//-----------------------------------------------------------------------------
+
+function GuiSkillStatWindow::onClose( %this) 
+{
+   closeSkillStatDlg();
+}
+//-----------------------------------------------------------------------------

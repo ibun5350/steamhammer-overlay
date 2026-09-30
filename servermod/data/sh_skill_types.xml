@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table name="skill_type">
+
+<row>
+    <ID>69</ID>
+    <Parent>0</Parent>
+    <Name>Crossbow mastery</Name>
+    <Group>2</Group>
+    <PrimaryStat>Agi</PrimaryStat>
+    <SecondaryStat>Int</SecondaryStat>
+    <Icon>art\2D\skillsSH\crossbow_mastery.png</Icon>
+    <UnknownIcon>art\2D\skillsSH\crossbow_mastery_u.png</UnknownIcon>
+    <Passive>388</Passive>
+    <DescLvl0>389</DescLvl0>
+    <DescLvl30>390</DescLvl30>
+    <DescLvl60>391</DescLvl60>
+    <DescLvl90>392</DescLvl90>
+    <DescLvl100>393</DescLvl100>
+    <MasterMessageID>586</MasterMessageID>
+    <GMMessageID>587</GMMessageID>
+    <skill_mult>150</skill_mult>
+</row>
+<row>
+    <ID>70</ID>
+    <Parent>0</Parent>
+    <Name>Stuff mastery</Name>
+    <Group>2</Group>
+    <PrimaryStat>Agi</PrimaryStat>
+    <SecondaryStat>Int</SecondaryStat>
+    <Icon>art\2D\skillsSH\stuff_mastery.png</Icon>
+    <UnknownIcon>art\2D\skillsSH\stuff_mastery_u.png</UnknownIcon>
+    <Passive>388</Passive>
+    <DescLvl0>389</DescLvl0>
+    <DescLvl30>390</DescLvl30>
+    <DescLvl60>391</DescLvl60>
+    <DescLvl90>392</DescLvl90>
+    <DescLvl100>393</DescLvl100>
+    <MasterMessageID>586</MasterMessageID>
+    <GMMessageID>587</GMMessageID>
+    <skill_mult>150</skill_mult>
+</row>
+<row>
+    <ID>71</ID>
+    <Parent>0</Parent>
+    <Name>Blades mastery</Name>
+    <Group>2</Group>
+    <PrimaryStat>Str</PrimaryStat>
+    <SecondaryStat>Con</SecondaryStat>
+    <Icon>art\2D\skillsSH\blades_mastery.png</Icon>
+    <UnknownIcon>art\2D\skillsSH\blades_mastery_u.png</UnknownIcon>
+    <Passive>388</Passive>
+    <DescLvl0>389</DescLvl0>
+    <DescLvl30>390</DescLvl30>
+    <DescLvl60>391</DescLvl60>
+    <DescLvl90>392</DescLvl90>
+    <DescLvl100>393</DescLvl100>
+    <MasterMessageID>586</MasterMessageID>
+    <GMMessageID>587</GMMessageID>
+    <skill_mult>150</skill_mult>
+</row>
+
+<row>
+    <ID>72</ID>
+    <Parent>0</Parent>
+    <Name>Steam armor mastery</Name>
+    <Group>2</Group>
+    <PrimaryStat>Str</PrimaryStat>
+    <SecondaryStat>Con</SecondaryStat>
+    <Icon>art\2D\skillsSH\steam_armor_mastery.png</Icon>
+    <UnknownIcon>art\2D\skillsSH\steam_armor_mastery_u.png</UnknownIcon>
+    <Passive>388</Passive>
+    <DescLvl0>389</DescLvl0>
+    <DescLvl30>390</DescLvl30>
+    <DescLvl60>391</DescLvl60>
+    <DescLvl90>392</DescLvl90>
+    <DescLvl100>393</DescLvl100>
+    <MasterMessageID>586</MasterMessageID>
+    <GMMessageID>587</GMMessageID>
+    <skill_mult>150</skill_mult>
+</row>
+<row>
+    <ID>73</ID>
+    <Parent>0</Parent>
+    <Name>Grounding armor mastery</Name>
+    <Group>2</Group>
+    <PrimaryStat>Str</PrimaryStat>
+    <SecondaryStat>Con</SecondaryStat>
+    <Icon>art\2D\skillsSH\grounding_armor_mastery.png</Icon>
+    <UnknownIcon>art\2D\skillsSH\grounding_armor_mastery_u.png</UnknownIcon>
+    <Passive>388</Passive>
+    <DescLvl0>389</DescLvl0>
+    <DescLvl30>390</DescLvl30>
+    <DescLvl60>391</DescLvl60>
+    <DescLvl90>392</DescLvl90>
+    <DescLvl100>393</DescLvl100>
+    <MasterMessageID>586</MasterMessageID>
+    <GMMessageID>587</GMMessageID>
+    <skill_mult>150</skill_mult>
+</row>
+<row>
+    <ID>74</ID>
+    <Parent>0</Parent>
+    <Name>Reactive armor mastery</Name>
+    <Group>2</Group>
+    <PrimaryStat>Str</PrimaryStat>
+    <SecondaryStat>Con</SecondaryStat>
+    <Icon>art\2D\skillsSH\reactive_armor_mastery.png</Icon>
+    <UnknownIcon>art\2D\skillsSH\reactive_armor_mastery_u.png</UnknownIcon>
+    <Passive>388</Passive>
+    <DescLvl0>389</DescLvl0>
+    <DescLvl30>390</DescLvl30>
+    <DescLvl60>391</DescLvl60>
+    <DescLvl90>392</DescLvl90>
+    <DescLvl100>393</DescLvl100>
+    <MasterMessageID>586</MasterMessageID>
+    <GMMessageID>587</GMMessageID>
+    <skill_mult>150</skill_mult>
+</row>
+<row>
+    <ID>75</ID>
+    <Parent>0</Parent>
+    <Name>Steam carapace mastery</Name>
+    <Group>2</Group>
+    <PrimaryStat>Str</PrimaryStat>
+    <SecondaryStat>Con</SecondaryStat>
+    <Icon>art\2D\skillsSH\steam_carapace_mastery.png</Icon>
+    <UnknownIcon>art\2D\skillsSH\steam_carapace_mastery_u.png</UnknownIcon>
+    <Passive>388</Passive>
+    <DescLvl0>389</DescLvl0>
+    <DescLvl30>390</DescLvl30>
+    <DescLvl60>391</DescLvl60>
+    <DescLvl90>392</DescLvl90>
+    <DescLvl100>393</DescLvl100>
+    <MasterMessageID>586</MasterMessageID>
+    <GMMessageID>587</GMMessageID>
+    <skill_mult>150</skill_mult>
+</row>
+<row>
+    <ID>76</ID>
+    <Parent>0</Parent>
+    <Name>Enchanted armor mastery</Name>
+    <Group>2</Group>
+    <PrimaryStat>Str</PrimaryStat>
+    <SecondaryStat>Con</SecondaryStat>
+    <Icon>art\2D\skillsSH\enchanted_armor_mastery.png</Icon>
+    <UnknownIcon>art\2D\skillsSH\enchanted_armor_mastery_u.png</UnknownIcon>
+    <Passive>388</Passive>
+    <DescLvl0>389</DescLvl0>
+    <DescLvl30>390</DescLvl30>
+    <DescLvl60>391</DescLvl60>
+    <DescLvl90>392</DescLvl90>
+    <DescLvl100>393</DescLvl100>
+    <MasterMessageID>586</MasterMessageID>
+    <GMMessageID>587</GMMessageID>
+    <skill_mult>150</skill_mult>
+</row>
+<row>
+    <ID>77</ID>
+    <Parent>0</Parent>
+    <Name>Armor of thorns mastery</Name>
+    <Group>2</Group>
+    <PrimaryStat>Str</PrimaryStat>
+    <SecondaryStat>Con</SecondaryStat>
+    <Icon>art\2D\skillsSH\armor_of_thorns_mastery.png</Icon>
+    <UnknownIcon>art\2D\skillsSH\armor_of_thorns_mastery_u.png</UnknownIcon>
+    <Passive>388</Passive>
+    <DescLvl0>389</DescLvl0>
+    <DescLvl30>390</DescLvl30>
+    <DescLvl60>391</DescLvl60>
+    <DescLvl90>392</DescLvl90>
+    <DescLvl100>393</DescLvl100>
+    <MasterMessageID>586</MasterMessageID>
+    <GMMessageID>587</GMMessageID>
+    <skill_mult>150</skill_mult>
+</row>
+<row>
+    <ID>78</ID>
+    <Parent>0</Parent>
+    <Name>Jet Flying</Name>
+    <Group>2</Group>
+    <PrimaryStat>Int</PrimaryStat>
+    <SecondaryStat>Agi</SecondaryStat>
+    <Icon>art\2D\skillsSH\jetFlyingMastery.png</Icon>
+    <UnknownIcon>art\2D\skillsSH\jetFlyingMastery_u.png</UnknownIcon>
+    <Passive>388</Passive>
+    <DescLvl0>389</DescLvl0>
+    <DescLvl30>390</DescLvl30>
+    <DescLvl60>391</DescLvl60>
+    <DescLvl90>392</DescLvl90>
+    <DescLvl100>393</DescLvl100>
+    <MasterMessageID>586</MasterMessageID>
+    <GMMessageID>587</GMMessageID>
+    <skill_mult>150</skill_mult>
+    <abilities>
+     
+    </abilities>	
+</row>
+<row>
+    <ID>79</ID>
+    <Parent>0</Parent>
+    <Name>Airship Mastery</Name>
+    <Group>2</Group>
+    <PrimaryStat>Agi</PrimaryStat>
+    <SecondaryStat>Int</SecondaryStat>
+    <Icon>art\2D\skillsSH\Airship_Mastery.png</Icon>
+    <UnknownIcon>art\2D\skillsSH\Airship_Mastery_u.png</UnknownIcon>
+    <Passive>388</Passive>
+    <DescLvl0>389</DescLvl0>
+    <DescLvl30>390</DescLvl30>
+    <DescLvl60>391</DescLvl60>
+    <DescLvl90>392</DescLvl90>
+    <DescLvl100>393</DescLvl100>
+    <MasterMessageID>586</MasterMessageID>
+    <GMMessageID>587</GMMessageID>
+    <skill_mult>150</skill_mult>
+    <abilities>
+      
+    </abilities>
+</row>
+<row>
+    <ID>80</ID>
+    <Parent>0</Parent>
+    <Name>Turret Mastery</Name>
+    <Group>2</Group>
+    <PrimaryStat>Agi</PrimaryStat>
+    <SecondaryStat>Int</SecondaryStat>
+    <Icon>art\2D\skillsSH\Turret_Mastery.png</Icon>
+    <UnknownIcon>art\2D\skillsSH\Turret_Mastery_u.png</UnknownIcon>
+    <Passive>388</Passive>
+    <DescLvl0>389</DescLvl0>
+    <DescLvl30>390</DescLvl30>
+    <DescLvl60>391</DescLvl60>
+    <DescLvl90>392</DescLvl90>
+    <DescLvl100>393</DescLvl100>
+    <MasterMessageID>586</MasterMessageID>
+    <GMMessageID>587</GMMessageID>
+    <skill_mult>150</skill_mult>
+    <abilities>
+      
+    </abilities>
+</row>
+</table>

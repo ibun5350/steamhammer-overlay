@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+<lang_pack_version>1</lang_pack_version>
+<strings>
+<string id="1">Металловедение</string>
+<string id="2">Фермерство</string>
+<string id="3">Кузнечное дело</string>
+<string id="4">Инженерное дело</string>
+<string id="5">Алхимия</string>
+<string id="6">Строительство</string>
+<string id="7">Обычные действия</string>
+<string id="8"></string>
+<string id="10">Владение пистолетами</string>
+<string id="11">Владение винтовками</string>
+<string id="12">Владение Тесла-пистолетами и жезлами</string>
+<string id="13">Владение Тесла-винтовками и посохами</string>
+<string id="14">Владение мечом</string>
+<string id="15">Владение двуручным мечом</string>
+<string id="16">Владение топором</string>
+<string id="17">Владение двуручным топором</string>
+<string id="18">Владение тяжёлым оружием</string>
+<string id="19">Использование тяжелой брони</string>
+<string id="20">Использование стрелковой брони</string>
+<string id="21">Использование заземляющей брони</string>
+<string id="22">Владение дробовиками и арбалетами</string>
+<string id="23">Рукопашный бой</string>
+<string id="24">Артиллерия и взрывотехника</string>
+<string id="25">Пилотирование (дирижабли и реактивные ранцы)</string>
+<string id="26">Первая помощь</string>
+<string id="27">Содержание снаряжения</string>
+<string id="81">Горное дело</string>
+<string id="82">Лесоводство</string>
+<string id="83">Плотничество</string>
+<string id="84">Животноводство</string>
+<string id="85">Охота и рыбалка</string>
+<string id="86">Портняжное дело</string>
+<string id="87">Кулинария и хозяйство</string>
+<string id="88">Собирательство</string>
+</strings></root>

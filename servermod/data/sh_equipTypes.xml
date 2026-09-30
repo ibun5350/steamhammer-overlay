@@ -1,0 +1,2415 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<equipment_types>
+<object id="1120">
+   <!--name = Hand of Boris-->
+   <skillID>23</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>15</slot>
+      <slot>16</slot>
+   </slots>
+</object>
+<object id="1122">
+   <!--name = Hand of Ilyas-->
+   <skillID>23</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>15</slot>
+      <slot>16</slot>
+   </slots>
+</object>
+<object id="2045">
+   <!--name = Rifle -->
+   <skillID>11</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1924">
+   <!--name = Prosecutor Rifle -->
+   <skillID>11</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1926">
+   <!--name = Domintor Rifle -->
+   <skillID>11</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1665">
+   <!--name = Rifle iron -->
+   <skillID>11</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1666">
+   <!--name = Rifle steal -->
+   <skillID>11</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1667">
+   <!--name = Rifle arcanium-->
+   <skillID>11</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1688">
+   <!--name = Shotgun steel-->
+   <skillID>22</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1689">
+   <!--name = Shotgun arcanium-->
+   <skillID>22</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+
+<object id="2044">
+   <!--name = Pistol -->
+   <skillID>10</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1655">
+   <!--name = Gun copper-->
+   <skillID>10</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1656">
+   <!--name = Gun iron-->
+   <skillID>10</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1657">
+   <!--name = Gun steel-->
+   <skillID>10</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1658">
+   <!--name = Gun arcanium-->
+   <skillID>10</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1663">
+   <!--name = Revolver steel-->
+   <skillID>10</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1664">
+   <!--name = Revolver arcanium-->
+   <skillID>10</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+
+
+<object id="2043">
+   <!--name = Bullet -->
+   <skillID>11</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>11</slot>
+      <slot>13</slot>
+   </slots>
+</object>
+<object id="1563">
+   <!--name = Bullet -->
+   <skillID>10</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>11</slot>
+      <slot>13</slot>
+   </slots>
+</object>
+<object id="1564">
+   <!--name = Bullet -->
+   <skillID>22</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>11</slot>
+      <slot>13</slot>
+   </slots>
+</object>
+<object id="1601">
+   <!--name = Bullet -->
+   <skillID>11</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>11</slot>
+      <slot>13</slot>
+   </slots>
+</object>
+<object id="1925">
+   <!--name = Prosecutor Bullet -->
+   <skillID>11</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>11</slot>
+      <slot>13</slot>
+   </slots>
+</object>
+<object id="1747">
+   <!--name = Cartridge for rifles -->
+   <skillID>11</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>11</slot>
+      <slot>13</slot>
+   </slots>
+</object>
+<object id="1659">
+   <!--name = Cartridge gun -->
+   <skillID>10</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>11</slot>
+      <slot>13</slot>
+   </slots>
+</object>
+
+<object id="2042">
+   <!--name = Tesla generator -->
+   <skillID>13</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1672">
+   <!--name = Large tesla generator iron -->
+   <skillID>13</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1673">
+   <!--name = Large tesla generator steel -->
+   <skillID>13</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1674">
+   <!--name = Large tesla generator arcanium-->
+   <skillID>13</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1684">
+   <!--name = Chain lightning generator steel-->
+   <skillID>13</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1685">
+   <!--name = Chain lightning generator arcanium-->
+   <skillID>13</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1769">
+   <!--name = Negative energy staff copper-->
+   <skillID>13</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1770">
+   <!--name = Negative energy staff steel-->
+   <skillID>13</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1771">
+   <!--name = Negative energy staff tyranids-->
+   <skillID>13</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1781">
+   <!--name = Negative field rod steel-->
+   <skillID>13</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1782">
+   <!--name = Negative field rod tyranids-->
+   <skillID>13</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+
+
+<object id="2041">
+   <!--name = Tesla light -->
+   <skillID>12</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1668">
+   <!--name = Tesla gun copper -->
+   <skillID>12</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1669">
+   <!--name = Tesla gun iron -->
+   <skillID>12</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1670">
+   <!--name = Tesla gun steel -->
+   <skillID>12</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1671">
+   <!--name = Tesla gun arcanium -->
+   <skillID>12</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1765">
+   <!--name = Rod negative energy copper -->
+   <skillID>12</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1766">
+   <!--name = Rod negative energy iron -->
+   <skillID>12</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1767">
+   <!--name = Rod negative energy steel -->
+   <skillID>12</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1768">
+   <!--name = Rod negative energy tyranids -->
+   <skillID>12</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1772">
+   <!--name = Scepter of negative energy steel -->
+   <skillID>12</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1773">
+   <!--name = Scepter of negative energy tyranids -->
+   <skillID>12</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+
+
+<object id="2040">
+   <!--name = Battery -->
+   <skillID>12</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>11</slot>
+      <slot>13</slot>
+   </slots>
+</object>
+
+
+<object id="2039">
+   <!--name = Steam hammer -->
+   <skillID>18</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1661">
+   <!--name = Big steam hammer arcanium -->
+   <skillID>18</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1662">
+   <!--name = Big steam hammer steel -->
+   <skillID>18</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1587">
+   <!--name = Big steam hammer iron -->
+   <skillID>18</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1681">
+   <!--name = Two-handed axe iron -->
+   <skillID>17</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1682">
+   <!--name = Two-handed axe steel -->
+   <skillID>17</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1683">
+   <!--name = Two-handed axe arcanium -->
+   <skillID>17</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1758">
+   <!--name = Chain cleaver steel -->
+   <skillID>14</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1759">
+   <!--name = Chain cleaver tyranids -->
+   <skillID>14</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1776">
+   <!--name = Two-handed mace iron -->
+   <skillID>18</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1777">
+   <!--name = Two-handed mace steel -->
+   <skillID>18</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1778">
+   <!--name = Two-handed mace tyranids -->
+   <skillID>18</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1774">
+   <!--name = Chain two-handed sword steel -->
+   <skillID>15</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1775">
+   <!--name = Chain two-handed sword tyranids -->
+   <skillID>15</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+
+
+<object id="1527">
+   <!--name = Cooper axe-->
+   <skillID>16</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1849">
+   <!--name = Scrap axe-->
+   <skillID>16</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1537">
+   <!--name = Iron axe-->
+   <skillID>16</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1529">
+   <!--name = Cooper pick-->
+   <skillID>16</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1850">
+   <!--name = Scrap pick-->
+   <skillID>16</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1538">
+   <!--name = Iron pick-->
+   <skillID>16</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1535">
+   <!--name = Cooper shovel-->
+   <skillID>17</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1853">
+   <!--name = Scrap shovel-->
+   <skillID>17</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1539">
+   <!--name = Iron shovel-->
+   <skillID>17</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1488">
+   <!--name = Fishing road-->
+   <skillID>15</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+
+
+<object id="1531">
+   <!--name = Cooper saw -->
+   <skillID>14</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1851">
+   <!--name = Scrap saw -->
+   <skillID>14</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1540">
+   <!--name = Iron saw -->
+   <skillID>14</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1533">
+   <!--name = Cooper hammer -->
+   <skillID>16</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1852">
+   <!--name = Scrap hammer -->
+   <skillID>16</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1536">
+   <!--name = Iron hammer -->
+   <skillID>16</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1407">
+   <!--name = Scrap Machete -->
+   <skillID>14</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1854">
+   <!--name = Copper Machete -->
+   <skillID>14</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1855">
+   <!--name = Iron Machete -->
+   <skillID>14</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1636">
+   <!--name = Torch -->
+   <skillID>14</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1408">
+   <!--name = Bank to collect juice -->
+   <skillID>14</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1653">
+   <!--name = Big bank to collect juice-->
+   <skillID>14</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1600">
+   <!--name = Slingshot-->
+   <skillID>10</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+
+
+<object id="2038">
+   <!--name = Tooth -->
+   <skillID>16</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1675">
+   <!--name = Klevets copper -->
+   <skillID>16</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1676">
+   <!--name = Klevets iron -->
+   <skillID>16</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1677">
+   <!--name = Klevets steel -->
+   <skillID>16</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1678">
+   <!--name = Klevets arcanium -->
+   <skillID>16</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1679">
+   <!--name = Chain sword steel -->
+   <skillID>15</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1680">
+   <!--name = Chain sword arcanium -->
+   <skillID>15</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1754">
+   <!--name = Hatchet copper -->
+   <skillID>14</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1755">
+   <!--name = Hatchet iron -->
+   <skillID>14</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1756">
+   <!--name = Hatchet steel -->
+   <skillID>14</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1757">
+   <!--name = Hatchet tyranids -->
+   <skillID>14</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+
+
+<object id="2037">
+   <!--name = Steam crossbow -->
+   <skillID>22</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1762">
+   <!--name = Crossbow iron-->
+   <skillID>22</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1763">
+   <!--name = Crossbow steel-->
+   <skillID>22</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1764">
+   <!--name = Crossbow tyranids-->
+   <skillID>22</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1779">
+   <!--name = Acid shotgun steel-->
+   <skillID>22</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="1780">
+   <!--name = Acid shotgun tyranids-->
+   <skillID>22</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object> 	
+
+
+<object id="2036">
+   <!--name = Crossbow -->
+   <skillID>22</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1748">
+   <!--name = Needle case copper-->
+   <skillID>10</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1749">
+   <!--name = Needle case iron-->
+   <skillID>10</skillID>
+   <skillAmount>30</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1750">
+   <!--name = Needle case steel-->
+   <skillID>10</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1751">
+   <!--name = Needle case tyranids-->
+   <skillID>10</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1760">
+   <!--name = Needler shoplifter steel-->
+   <skillID>11</skillID>
+   <skillAmount>60</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="1761">
+   <!--name = Needler shoplifter tyranids-->
+   <skillID>11</skillID>
+   <skillAmount>90</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+
+
+<object id="2035">
+   <!--name = Bolts -->
+   <skillID>22</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>11</slot>
+      <slot>13</slot>
+   </slots>
+</object>
+<object id="2034">
+   <!--name = Steamana stuff -->
+   <skillID>13</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="2033">
+   <!--name = stuff -->
+   <skillID>13</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<object id="2032">
+   <!--name = Steamana Battery -->
+   <skillID>13</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>11</slot>
+      <slot>13</slot>
+   </slots>
+</object>
+<object id="2031">
+   <!--name = Enchanted fencing -->
+   <skillID>16</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+   </slots>
+</object>
+<object id="2030">
+   <!--name = Axe -->
+   <skillID>16</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+   </slots>
+</object>
+<!-- Очки  -->
+
+<object id="1568">
+   <skillID>21</skillID>
+   <skillAmount>0</skillAmount>
+  <!-- части тела -->
+   <meshes>
+      <mesh>eyeglassesA</mesh>
+      <mesh>eyeglassesAA</mesh>
+   </meshes>
+   <!-- выкл на что меняем -->
+   <cutoffs>
+     <!-- <cutoff type="ears" action="off" />  глаза -->
+   </cutoffs>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <armor>
+      <multiplier type="blunt"     value = "0.4" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.4" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.35" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.08" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.4" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.35" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.08" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.4" />
+   </armor>
+</object>
+
+<object id="1569">
+   <skillID>21</skillID>
+   <skillAmount>0</skillAmount>
+  <!-- части тела -->
+   <meshes>
+      <mesh>GlassesA</mesh>
+   </meshes>
+   <!-- выкл на что меняем -->
+   <cutoffs>
+     <!-- <cutoff type="ears" action="off" />  глаза -->
+   </cutoffs>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <armor>
+      <multiplier type="blunt"     value = "0.4" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.4" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.35" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.08" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.4" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.35" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.08" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.4" />
+   </armor>
+</object>
+<object id="1570">
+   <skillID>21</skillID>
+   <skillAmount>0</skillAmount>
+  <!-- части тела -->
+   <meshes>
+      <mesh>GlassesBB</mesh>
+      <mesh>GlassesB</mesh>
+   </meshes>
+   <!-- выкл на что меняем -->
+   <cutoffs>
+     <!-- <cutoff type="ears" action="off" />  глаза -->
+   </cutoffs>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <armor>
+      <multiplier type="blunt"     value = "0.4" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.4" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.35" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.08" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.4" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.35" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.08" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.4" />
+   </armor>
+</object>
+<object id="1571">
+   <skillID>21</skillID>
+   <skillAmount>0</skillAmount>
+  <!-- части тела -->
+   <meshes>
+      <mesh>monocleA</mesh>
+      <mesh>monocleAA</mesh>
+   </meshes>
+   <!-- выкл на что меняем -->
+   <cutoffs>
+     <!-- <cutoff type="ears" action="off" />  глаза -->
+   </cutoffs>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <armor>
+      <multiplier type="blunt"     value = "0.4" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.4" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.35" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.08" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.4" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.35" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.08" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.4" />
+   </armor>
+</object>
+<!--Helmet ranged armor-T-->
+<!-- HELMETS  -->
+<!--Helmet ranged armor-T-->
+<object id="1868">
+   <skillID>21</skillID>
+   <skillAmount>0</skillAmount>
+  <!-- части тела -->
+   <meshes>
+      <mesh>lamp</mesh>
+      <mesh>lamp_glass</mesh>
+      <mesh>lamp_light</mesh>
+   </meshes>
+   <!-- выкл на что меняем -->
+   <cutoffs>
+   </cutoffs>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <armor>
+      <multiplier type="blunt"     value = "0.1" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.1" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.2" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.6" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.1" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.2" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.6" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.15" />
+   </armor>
+</object>
+<!-- TM_ARMOR  -->
+
+<!-- Helmet melee armor-T   -->
+<object id="1691">
+   <skillID>19</skillID>
+   <skillAmount>0</skillAmount>
+  <!-- части тела -->
+   <meshes>
+      <mesh>helmet_heavy</mesh>
+   </meshes>
+   <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="off" /><!-- волосы -->
+      <cutoff type="beard" action="off" /> <!-- борода -->
+      <cutoff type="head" action="off" /><!-- голова -->
+   </cutoffs>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <armor>
+      <multiplier type="blunt"     value = "0.4" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.4" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.35" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.08" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.4" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.35" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.08" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.4" />
+   </armor>
+</object>
+
+<!--Helmet ranged armor-T-->
+<object id="1693">
+   <skillID>20</skillID>
+   <skillAmount>0</skillAmount>
+  <!-- части тела -->
+   <meshes>
+      <mesh>helmet_med</mesh>
+   </meshes>
+   <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="ears" action="off" />  <!-- глаза -->
+      <cutoff type="hair" action="off" />  <!-- волосы -->
+      <cutoff type="beard" action="off" /> <!-- борода -->
+      <cutoff type="head" action="off" />  <!-- голова -->
+   </cutoffs>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <armor>
+      <multiplier type="blunt"     value = "0.3" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.3" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.5" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.25" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.3" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.5" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.25" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.4" />
+   </armor>
+</object>
+
+
+<!--Helmet ranged armor-T-->
+<object id="1695">
+   <skillID>21</skillID>
+   <skillAmount>0</skillAmount>
+  <!-- части тела -->
+   <meshes>
+      <mesh>Helmet_light</mesh>
+   </meshes>
+   <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="ears" action="off" />  <!-- глаза -->
+      <cutoff type="hair" action="off" />  <!-- волосы -->
+      <cutoff type="beard" action="off" /> <!-- борода -->
+   </cutoffs>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <armor>
+      <multiplier type="blunt"     value = "0.1" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.1" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.2" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.6" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.1" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.2" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.6" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.15" />
+   </armor>
+</object>
+<!-- TM_ARMOR  -->
+
+<!--TM Armor_Low -->
+<object id="2028">
+   <!--name = Steam armor -->
+   <skillID>21</skillID>
+   <skillAmount>0</skillAmount>
+  <!-- части тела -->
+   <meshes>
+      <mesh>Light_Armor_Techno</mesh>
+      <mesh>tc_armor_light_wrists</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+
+     
+   <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.15" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.2" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.3" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.65" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.15" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.3" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.65" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.25" />
+   </armor>
+</object>
+
+<!--TM Armor_Low -->
+<object id="1694">
+   <!--name = Steam armor arcanium -->
+   <skillID>21</skillID>
+   <skillAmount>90</skillAmount>
+  <!-- части тела -->
+   <meshes>
+      <mesh>Magic_armor_Body</mesh>
+      <mesh>Magic_armor_qwe</mesh>
+      <mesh>Magic_armor_Gloves</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+
+     
+   <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.3" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.3" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.4" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.85" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.3" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.4" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.85" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.35" />
+   </armor>
+</object>
+
+
+<object id="1574">
+   <!--name = Ranged armor iron-T -->
+   <skillID>20</skillID>
+   <skillAmount>30</skillAmount>
+
+   <!-- части тела -->
+   <meshes>
+      <mesh>tc_med_low_boots</mesh>
+      <mesh>tc_med_low_body</mesh>
+      <mesh>tc_med_low_Shoulders</mesh>
+      <mesh>tc_med_low_gloves</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+
+     <!-- выкл на что меняем -->
+     <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.2" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.2" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.5" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.25" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.2" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.5" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.25" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.3" />
+   </armor>
+</object>
+
+<!--TM Armor_Melee -->
+
+<!--TM Armor_Low -->
+<object id="1573">
+   <!--name = Steam armor steel -->
+   <skillID>21</skillID>
+   <skillAmount>30</skillAmount>
+  <!-- части тела -->
+   <meshes>
+      <mesh>Belt_low</mesh>
+      <mesh>Glove_low</mesh>
+      <mesh>Magic_iron_shirt</mesh>
+      <mesh>Magic_iron_pants</mesh>
+      <mesh>Magic_iron_boot_B</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+
+     
+   <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.2" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.2" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.3" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.725" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.2" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.3" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.725" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.25" />
+   </armor>
+</object>
+
+<object id="1560">
+   <!--name = Steam armor steel -->
+   <skillID>21</skillID>
+   <skillAmount>60</skillAmount>
+  <!-- части тела -->
+   <meshes>
+      <mesh>Light_Armor_Techno</mesh>
+      <mesh>tc_armor_light_wrists</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+
+     
+   <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.2" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.2" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.3" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.725" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.2" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.3" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.725" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.25" />
+   </armor>
+</object>
+
+<!--TM Armor_Medium -->
+<object id="2027">
+   
+   <skillID>20</skillID>
+   <skillAmount>0</skillAmount>
+
+   <!-- части тела -->
+   <meshes>
+      <mesh>tech_mid_A</mesh>
+      <mesh>tech_mid_B</mesh>
+      <mesh>tech_mid_C</mesh>
+      <mesh>tech_mid_D</mesh>
+      <mesh>tech_mid_F</mesh>
+      <mesh>tech_mid_J</mesh>
+      <mesh>tech_mid_L</mesh>
+      <mesh>tech_mid_M</mesh>
+      <mesh>tech_mid_N</mesh>
+      <mesh>tech_mid_R</mesh>
+      <mesh>tech_mid_S</mesh>
+      <mesh>tech_mid_W</mesh>
+      <mesh>tech_mid_Z</mesh>
+      <mesh>tech_mid_X</mesh>
+      <mesh>tech_mid_P</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+
+     <!-- выкл на что меняем -->
+     <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.2" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.2" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.2" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.8" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.2" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.2" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.8" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.4" />
+   </armor>
+</object>
+
+<!--Ranged armor-T-->
+<object id="1692">
+   <!--name = Ranged armor-T -->
+   <skillID>20</skillID>
+   <skillAmount>90</skillAmount>
+
+   <!-- части тела -->
+   <meshes>
+      <mesh>Gloves_Tech_Mid_Hi</mesh>
+      <mesh>Valves_Tech_Mid_Hi</mesh>
+      <mesh>Shoulders_down_Tech_Mid_Hi</mesh>
+      <mesh>Down_plate_Tech_Mid_Hi</mesh>
+      <mesh>Mid_plate_Tech_Mid_Hi</mesh>
+      <mesh>Cloth_Tech_Mid_Hi</mesh>
+      <mesh>Napis_Tech_Mid_Hi</mesh>
+      <mesh>Chest_plate_Tech_Mid_Hi</mesh>
+      <mesh>Skirt_Tech_Mid_Hi</mesh>
+      <mesh>Legs_Tech_Mid_Hi</mesh>
+      <mesh>Shoulders_top_Tech_Mid_Hi</mesh>
+      <mesh>Pillow_Tech_Mid_Hi</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+
+     <!-- выкл на что меняем -->
+     <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.6" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.6" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.7" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.45" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.6" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.7" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.45" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.5" />
+   </armor>
+</object>
+
+<object id="1561">
+   <!--name = Ranged armor steel-T -->
+   <skillID>20</skillID>
+   <skillAmount>60</skillAmount>
+
+   <!-- части тела -->
+   <meshes>
+      <mesh>tech_mid_A</mesh>
+      <mesh>tech_mid_B</mesh>
+      <mesh>tech_mid_C</mesh>
+      <mesh>tech_mid_D</mesh>
+      <mesh>tech_mid_F</mesh>
+      <mesh>tech_mid_J</mesh>
+      <mesh>tech_mid_L</mesh>
+      <mesh>tech_mid_M</mesh>
+      <mesh>tech_mid_N</mesh>
+      <mesh>tech_mid_R</mesh>
+      <mesh>tech_mid_S</mesh>
+      <mesh>tech_mid_W</mesh>
+      <mesh>tech_mid_Z</mesh>
+      <mesh>tech_mid_X</mesh>
+      <mesh>tech_mid_P</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+
+     <!-- выкл на что меняем -->
+     <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.45" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.45" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.6" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.35" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.45" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.6" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.35" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.5" />
+   </armor>
+</object>
+
+<!--TM Armor_Heavy -->
+<object id="2026">
+   <!--name = Reactive armor -->
+   <skillID>19</skillID>
+   <skillAmount>0</skillAmount>
+
+   <meshes>
+      <mesh>tc_armor_heavy_arms</mesh>
+      <mesh>tc_armor_heavy_shoulders</mesh>
+      <mesh>tc_armor_heavy_legs</mesh>
+      <mesh>tc_armor_heavy_feet</mesh>
+      <mesh>Engineer_Low</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+    <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.8" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.8" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.2" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.2" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.8" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.2" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.2" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.5" />
+   </armor>
+</object>
+
+<!--Melee armor-T -->
+<object id="1690">
+   <!--name = Melee armor-T -->
+   <skillID>19</skillID>
+   <skillAmount>90</skillAmount>
+
+   <meshes>
+      <mesh>tc_HA2_Parts_1_low</mesh>
+      <mesh>tc_HA2_Belt_2_low</mesh>
+      <mesh>tc_HA2_Belt_3_low</mesh>
+      <mesh>tc_HA2_Belt_1_low</mesh>
+      <mesh>tc_HA2_Gloves_low</mesh>
+      <mesh>tc_HA2_Boots_n_belt_low</mesh>
+      <mesh>tc_HA2_Cloth_low</mesh>
+      <mesh>tc_HA2_Vorot_low</mesh>
+      <mesh>tc_HA2_Legs_low</mesh>
+      <mesh>tc_HA2_Torso_1_low</mesh>
+      <mesh>tc_HA2_Parts_2_low</mesh>
+      <mesh>tc_HA2_Lion_low</mesh>
+      <mesh>tc_HA2_Arm_low</mesh>
+      <mesh>tc_HA2_Chest_U_low</mesh>
+      <mesh>tc_HA2_Chest_D_low</mesh>
+      <mesh>tc_HA2_Torso_2_low</mesh>
+      <mesh>tc_HA2_Belts_mid_low</mesh>
+      <mesh>tc_HA2_Spine_plank_low</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+    <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.75" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.8" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.55" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.22" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.8" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.55" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.22" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.65" />
+   </armor>
+</object>
+<!--Melee armor-T -->
+<object id="1572">
+   <!--name = Melee armor-T -->
+   <skillID>19</skillID>
+   <skillAmount>30</skillAmount>
+
+   <meshes>
+      <mesh>heavy_armor_lowA</mesh>
+      <mesh>heavy_armor_lowB</mesh>
+      <mesh>heavy_armor_low_complete_heavy_armor_lowF</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+    <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.75" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.8" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.55" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.22" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.8" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.55" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.22" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.65" />
+   </armor>
+</object>
+<!--Melee armor-T -->
+<object id="1562">
+   <!--name = Melee armor steel-T -->
+   <skillID>19</skillID>
+   <skillAmount>60</skillAmount>
+
+   <meshes>
+      <mesh>tc_armor_heavy_arms</mesh>
+      <mesh>tc_armor_heavy_shoulders</mesh>
+      <mesh>tc_armor_heavy_legs</mesh>
+      <mesh>tc_armor_heavy_feet</mesh>
+      <mesh>Engineer_Low</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+    <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.6" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.65" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.45" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.15" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.65" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.45" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.15" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.6" />
+   </armor>
+</object>
+
+<!--ШМОТКИ -->
+
+<!--TM Holiday clothing -->
+<object id="1722">
+   <!--name = Reactive armor -->
+   <skillID>21</skillID>
+   <skillAmount>0</skillAmount>
+
+   <meshes>
+      <mesh>tc_state_LionHeadHolder</mesh>
+      <mesh>tc_state_shirt</mesh>
+      <mesh>tc_state_accessoriesE</mesh>
+      <mesh>tc_state_accessoriesB</mesh>
+      <mesh>tc_state_accessoriesC</mesh>
+      <mesh>tc_state_accessoriesA</mesh>
+      <mesh>tc_state_accessoriesA</mesh>
+      <mesh>tc_state_bag</mesh>
+      <mesh>tc_state_accessoriesD</mesh>
+      <mesh>tc_state_sling</mesh>
+      <mesh>tc_state_boots</mesh>
+      <mesh>tc_state_pants</mesh>
+      <mesh>tc_state_hands</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+    <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.05" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.05" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.1" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.1" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.05" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.05" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.1" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.05" />
+   </armor>
+</object>
+
+<!--TM Luxury clothing -->
+<object id="1724">
+   <!--name = Reactive armor -->
+   <skillID>21</skillID>
+   <skillAmount>0</skillAmount>
+
+   <meshes>
+      <mesh>tc_wear_elite_boots</mesh>
+      <mesh>tc_wear_elite_Pants</mesh>
+      <mesh>tc_wear_elite_Wrist</mesh>
+      <mesh>tc_wear_elite_Pins</mesh>
+      <mesh>tc_wear_elite_Shirt</mesh>
+      <mesh>tc_wear_elite_Collar</mesh>
+      <mesh>tc_wear_elite_Tie</mesh>
+      <mesh>tc_wear_elite_Belt</mesh>
+      <mesh>tc_wear_elite_BagA</mesh>
+      <mesh>tc_wear_elite_BagD</mesh>
+      <mesh>tc_wear_elite_BagC</mesh>
+      <mesh>tc_wear_elite_Beltclips</mesh>
+      <mesh>tc_wear_elite_sling</mesh>
+      <mesh>tc_wear_elite_BagB</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+    <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.1" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.1" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.15" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.2" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.1" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.15" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.1" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.1" />
+   </armor>
+</object>
+
+<!-- END TM_ARMOR  -->
+
+
+
+
+
+
+
+<!--TM Clotes_default  -->
+<object id="1582">
+   <!--name = Reactive armor -->
+   <skillID>21</skillID>
+   <skillAmount>0</skillAmount>
+
+   <meshes>
+      <mesh>t_pants</mesh>
+      <mesh>t_boot_B</mesh>
+      <mesh>t_shirt</mesh>
+      <mesh>t_hands</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+    <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" /> <!-- нога -->
+      <cutoff type="shin" action="off" /> <!-- голень -->
+      <cutoff type="arms" action="off" /> <!-- оружие -->
+      <cutoff type="forearms" action="off" /><!-- предплечье -->
+      <cutoff type="shoulders" action="off" /><!-- плечо -->
+      <cutoff type="ears" action="off" /> <!-- глаза -->
+      <cutoff type="hair" action="on" /><!-- волосы -->
+      <cutoff type="beard" action="on" /> <!-- борода -->
+      <cutoff type="torso" action="off" /><!-- торс -->
+      <cutoff type="hips" action="off" /> <!-- бедро -->
+      <cutoff type="head" action="on" /><!-- голова -->
+   </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.1" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.1" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.15" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.2" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.1" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.15" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.1" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.1" />
+   </armor>
+</object>
+
+<!-- END TM_ARMOR  -->
+
+<!-- SM_ARMOR -->
+
+<!--SM Armor_Low -->
+<object id="2025">
+   
+   <skillID>19</skillID>
+   <skillAmount>0</skillAmount>
+
+  <!-- 
+   <meshes>
+      <mesh>tc_armor_heavy_arms</mesh>
+   </meshes>  
+  -->
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">1</slot>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.2" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.2" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.8" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.2" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.2" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.8" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.2" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.5" />
+   </armor>
+</object>
+
+<object id="1806">
+   <!--name = Magic armor-A -->
+   <skillID>21</skillID>
+   <skillAmount>0</skillAmount>
+
+  <!-- 
+   <meshes>
+      <mesh>tc_armor_heavy_arms</mesh>
+   </meshes>  
+  -->
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">1</slot>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.1" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.1" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.2" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.6" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.1" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.2" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.2" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.2" />
+   </armor>
+</object>
+
+
+<!--SM Armor_Medium -->
+<object id="2024">
+   
+   <skillID>20</skillID>
+   <skillAmount>0</skillAmount>
+
+
+   <meshes>
+      <mesh>PRMG_M_Body</mesh>
+      <mesh>Ships</mesh>
+      <mesh>PRMG_M_Armour</mesh>
+      <mesh>belt</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+   <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" />
+      <cutoff type="shin" action="off" />
+      <cutoff type="arms" action="off" />
+      <cutoff type="forearms" action="off" />
+      <cutoff type="shoulders" action="off" />
+      <cutoff type="hair" action="off" />
+      <cutoff type="ears" action="off" />
+      <cutoff type="hair" action="off" />
+      <cutoff type="beard" action="off" />
+      <cutoff type="torso" action="off" />
+      <cutoff type="hips" action="off" />
+      <cutoff type="head" action="on" />
+    </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">1</slot>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.2" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.2" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.2" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.8" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.2" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.2" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.8" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.5" />
+   </armor>
+</object>
+
+<!--Ranged armor-A-->
+<object id="1804">
+   
+   <skillID>20</skillID>
+   <skillAmount>0</skillAmount>
+
+
+   <meshes>
+      <mesh>PRMG_M_Body</mesh>
+      <mesh>Ships</mesh>
+      <mesh>PRMG_M_Armour</mesh>
+      <mesh>belt</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+   <!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" />
+      <cutoff type="shin" action="off" />
+      <cutoff type="arms" action="off" />
+      <cutoff type="forearms" action="off" />
+      <cutoff type="shoulders" action="off" />
+      <cutoff type="hair" action="off" />
+      <cutoff type="ears" action="off" />
+      <cutoff type="hair" action="off" />
+      <cutoff type="beard" action="off" />
+      <cutoff type="torso" action="off" />
+      <cutoff type="hips" action="off" />
+      <cutoff type="head" action="on" />
+    </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">1</slot>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.2" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.2" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.5" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.25" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.2" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.5" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.25" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.45" />
+   </armor>
+</object>
+    
+    <!--SM Armor_Heavy -->
+<object id="2023">
+   
+   <skillID>19</skillID>
+   <skillAmount>0</skillAmount>
+   
+   <meshes>
+      <mesh>sm_armor_heavy_arms</mesh>
+      <mesh>sm_armor_heavy_pants</mesh>
+      <mesh>sm_armor_heavy_body</mesh>
+      <mesh>sm_armor_heavy_shoulders</mesh>
+      <mesh>sm_armor_heavy_legs</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+
+<!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" />
+      <cutoff type="shin" action="off" />
+      <cutoff type="arms" action="off" />
+      <cutoff type="forearms" action="off" />
+      <cutoff type="shoulders" action="off"/>
+      <cutoff type="hair" action="off" />
+      <cutoff type="ears" action="off" />
+      <cutoff type="hair" action="off" />
+      <cutoff type="beard" action="off" />
+      <cutoff type="torso" action="off" />
+      <cutoff type="hips" action="off" />
+      <cutoff type="head" action="on" />
+    </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">1</slot>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.8" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.8" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.2" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.2" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.8" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.2" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.2" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.5" />
+   </armor>
+</object>
+
+<!--Melee armor-A -->
+<object id="1802">
+   
+   <skillID>19</skillID>
+   <skillAmount>0</skillAmount>
+   
+   <meshes>
+      <mesh>sm_armor_heavy_arms</mesh>
+      <mesh>sm_armor_heavy_pants</mesh>
+      <mesh>sm_armor_heavy_body</mesh>
+      <mesh>sm_armor_heavy_shoulders</mesh>
+      <mesh>sm_armor_heavy_legs</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh> <!-- LiF neck/collar under clothing -->
+      <mesh>Male_Body_v1_torso_block</mesh>
+   </meshes>
+
+<!-- выкл на что меняем -->
+   <cutoffs>
+      <cutoff type="feet" action="off" />
+      <cutoff type="shin" action="off" />
+      <cutoff type="arms" action="off" />
+      <cutoff type="forearms" action="off" />
+      <cutoff type="shoulders" action="off"/>
+      <cutoff type="hair" action="off" />
+      <cutoff type="ears" action="off" />
+      <cutoff type="hair" action="off" />
+      <cutoff type="beard" action="off" />
+      <cutoff type="torso" action="off" />
+      <cutoff type="hips" action="off" />
+      <cutoff type="head" action="on" />
+    </cutoffs>
+
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot guarding="true">1</slot>
+      <slot guarding="true">3</slot>
+      <slot guarding="true">4</slot>
+      <slot guarding="true">5</slot>
+      <slot guarding="true">6</slot>
+   </extraSlotsBlock>
+   <armor>
+      <multiplier type="blunt"     value = "0.4" />       <!-- steam hammer -->
+      <multiplier type="pierce"    value = "0.4" />       <!-- tooth -->
+      <multiplier type="firearm"   value = "0.3" />       <!-- rifle/pistol -->
+      <multiplier type="lightning" value = "0.08" />       <!-- tesla/light tesla -->
+      <multiplier type="slash"     value = "0.4" />       <!-- fencing/axe -->
+      <multiplier type="steambolt" value = "0.3" />       <!-- steam crossbow/small crossbow -->
+      <multiplier type="steamana"  value = "0.08" />       <!-- stuff/smallstuff -->
+      <multiplier type="siege"     value = "0.4" />
+   </armor>
+</object>
+    <!--END SM_ARMOR -->
+    
+
+
+
+      <!--TC JetPack -->
+<object id="1991">
+     <!--TC JetPack -->
+   <skillID>25</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>14</slot>
+   </slots>
+   <meshes>
+      <mesh>manometro_A</mesh>
+      <mesh>manometro_B</mesh>
+      <mesh>manometro_C</mesh>
+      <mesh>belt_C</mesh>
+      <mesh>backpack</mesh>
+      <mesh>Jetpack</mesh>
+      <mesh>belt_A</mesh>
+     
+   </meshes>
+</object>
+
+<object id="1707">
+     <!--Heavy djetpak-T-->
+   <skillID>25</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>14</slot>
+   </slots>
+   <meshes>
+      <mesh>manometro_A</mesh>
+      <mesh>manometro_B</mesh>
+      <mesh>manometro_C</mesh>
+      <mesh>belt_C</mesh>
+      <mesh>backpack</mesh>
+      <mesh>Jetpack</mesh>
+      <mesh>belt_A</mesh>
+     
+   </meshes>
+</object>
+
+    <!--SM JetPack -->
+<object id="1990">
+   <!--SM JetPack -->
+   <skillID>25</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>14</slot>
+   </slots>
+   <meshes>
+      <mesh>backpack</mesh>
+   </meshes>
+</object>
+
+  <!--Heavy djetpak-A -->
+<object id="1791">
+   <!--Heavy djetpak-A-->
+   <skillID>25</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>14</slot>
+   </slots>
+   <meshes>
+      <mesh>backpack</mesh>
+   </meshes>
+</object>
+
+     <!--TC JetPack_Low -->
+<object id="1977">
+   <!--TC JetPack_Low -->
+   <skillID>25</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>14</slot>
+   </slots>
+   <meshes>
+      <mesh>Jetpack_Low</mesh>
+</meshes>
+   <!--Djetpak light-T-->
+</object>
+<object id="1705">
+   <!--Djetpak light-T -->
+   <skillID>25</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>14</slot>
+   </slots>
+   <meshes>
+      <mesh>Jetpack_Low</mesh>
+
+   </meshes>
+</object>
+    <!--SM JetPack_Low -->
+<object id="1976">
+   <!--SM JetPack_Low -->
+   <skillID>25</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>14</slot>
+   </slots>
+   <meshes>
+      <mesh>Jet_pack_Mag_Low</mesh>
+   </meshes>
+</object>
+
+ <!--Djetpak light-A -->
+<object id="1789">
+   <!--Djetpak light-A -->
+   <skillID>25</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>14</slot>
+   </slots>
+   <meshes>
+      <mesh>Jet_pack_Mag_Low</mesh>
+   </meshes>
+</object>
+
+</equipment_types>
+
+

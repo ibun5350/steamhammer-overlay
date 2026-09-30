@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+<lang_pack_version>1</lang_pack_version>
+<strings>
+<string id="1">Metallurgie</string>
+<string id="2">Landwirtschaft</string>
+<string id="3">Schmiedekunst</string>
+<string id="4">Maschinenbau</string>
+<string id="5">Alchemie</string>
+<string id="6">Bauhandwerk</string>
+<string id="7">Gewöhnliche Aktionen</string>
+<string id="8"></string>
+<string id="10">Handfeuerwaffenmeisterschaft</string>
+<string id="11">Gewehrmeisterschaft</string>
+<string id="12">Tesla-Handfeuerwaffen- &amp; Rutenmeisterschaft</string>
+<string id="13">Tesla-Gewehr- &amp; Stabmeisterschaft</string>
+<string id="14">Schwertmeisterschaft</string>
+<string id="15">Zweihandschwertmeisterschaft</string>
+<string id="16">Axtmeisterschaft</string>
+<string id="17">Zweihandaxtmeisterschaft</string>
+<string id="18">Meisterschaft schwerer Waffen</string>
+<string id="19">Nahkampfrüstungsmeisterschaft</string>
+<string id="20">Fernkampfrüstungsmeisterschaft</string>
+<string id="21">Erdungsrüstungsmeisterschaft</string>
+<string id="22">Schrotflinten- &amp; Armbrustmeisterschaft</string>
+<string id="23">Faustkampfmeisterschaft</string>
+<string id="24">Artillerie und Sprengkörper</string>
+<string id="25">Navigation (Luftschiffe &amp; Jetpacks)</string>
+<string id="26">Erste Hilfe</string>
+<string id="27">Ausrüstungswartung</string>
+<string id="81">Bergbau</string>
+<string id="82">Forstwirtschaft</string>
+<string id="83">Zimmerei</string>
+<string id="84">Tierhaltung</string>
+<string id="85">Jagd &amp; Fischerei</string>
+<string id="86">Schneiderei</string>
+<string id="87">Kochen &amp; Haushalt</string>
+<string id="88">Sammeln</string>
+</strings></root>

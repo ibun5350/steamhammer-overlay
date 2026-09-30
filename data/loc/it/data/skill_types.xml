@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+<lang_pack_version>1</lang_pack_version>
+<strings>
+<string id="1">Metallurgia</string>
+<string id="2">Agricoltura</string>
+<string id="3">Forgiatura</string>
+<string id="4">Ingegneria</string>
+<string id="5">Alchimia</string>
+<string id="6">Costruzione</string>
+<string id="7">Azioni comuni</string>
+<string id="8"></string>
+<string id="10">Abilità con pistola</string>
+<string id="11">Abilità con fucile</string>
+<string id="12">Abilità con pistola tesla e verghe</string>
+<string id="13">Abilità con fucile tesla e bastoni</string>
+<string id="14">Abilità con spada</string>
+<string id="15">Abilità con spada a due mani</string>
+<string id="16">Abilità con ascia</string>
+<string id="17">Abilità con ascia a due mani</string>
+<string id="18">Abilità con armi pesanti</string>
+<string id="19">Abilità con armatura da mischia</string>
+<string id="20">Abilità con armatura da distanza</string>
+<string id="21">Abilità con armatura isolante</string>
+<string id="22">Abilità con fucile e balestra</string>
+<string id="23">Abilità nel corpo a corpo</string>
+<string id="24">Artiglieria ed esplosivi</string>
+<string id="25">Pilotaggio (dirigibili e jetpack)</string>
+<string id="26">Sopravvivenza in battaglia</string>
+<string id="27">Manutenzione equipaggiamento</string>
+<string id="81">Estrazione mineraria</string>
+<string id="82">Silvicoltura</string>
+<string id="83">Carpenteria</string>
+<string id="84">Allevamento</string>
+<string id="85">Caccia e pesca</string>
+<string id="86">Sartoria</string>
+<string id="87">Cucina e casa</string>
+<string id="88">Raccolta</string>
+</strings></root>

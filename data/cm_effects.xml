@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="utf-8"?>
+<effects>
+    <effect id="1" name="Root">
+        <flags CanMove="FALSE" CanRun="FALSE" CanJump="FALSE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are rooted and can not move!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Root.png</icon>
+    </effect>
+    <effect id="2" name="Stun">
+        <flags CanMove="FALSE" CanRun="FALSE" CanJump="FALSE" CanRotate="FALSE" CanOperate="FALSE" CanBeCanceled="FALSE"/>
+        <description>You are stunned!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Stun.png</icon>
+    </effect>
+    <effect id="3" name="Disabled">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="FALSE" CanBeCanceled="FALSE"/>
+        <description>You can not perform any actions.</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Disabled.png</icon>
+    </effect>
+    <effect id="4" name="Limited Movement">
+        <flags CanMove="TRUE" CanRun="FALSE" CanJump="FALSE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You can not jump or run.</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Limited_movement.png</icon>
+    </effect>
+    <effect id="5" name="Slowed">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>Your movement speed is lowered.</description>
+        <parameter type="SPEED" applytype="DECREASE"/>
+        <icon>art/2D/Effects/Slowed.png</icon>
+    </effect>
+    <effect id="6" name="Accelerated">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Your movement speed is increased.</description>
+        <parameter type="SPEED" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Accelerated.png</icon>
+    </effect>
+    <effect id="7" name="Clumsiness">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>Your attack speed is lowered.</description>
+        <parameter type="ATTACK_SPEED" applytype="DECREASE"/>
+        <icon>art/2D/Effects/Clumsiness.png</icon>
+    </effect>
+    <effect id="8" name="Swiftness">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Your attack speed is increased.</description>
+        <parameter type="ATTACK_SPEED" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Swiftness.png</icon>
+    </effect>
+    <effect id="9" name="Wounded">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You have a wound.</description>
+        <parameter type="HARD_HP_MAX" applytype="DECREASE"/>
+        <icon>art/2D/Effects/Wounded.png</icon>
+    </effect>
+    <effect id="10" name="Bleeding">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You have a bleeding wound.</description>
+        <parameter type="SOFT_HP" applytype="CONSUME"/>
+        <icon>art/2D/Effects/Bleeding.png</icon>
+    </effect>
+    <effect id="11" name="Crippled">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You have a fracture.</description>
+        <parameter type="STR" applytype="DECREASE"/>
+        <icon>art/2D/Effects/Crippled.png</icon>
+    </effect>
+    <effect id="12" name="Poisoned">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You have been poisoned and slowly dying.</description>
+        <parameter type="HARD_HP" applytype="CONSUME"/>
+        <icon>art/2D/Effects/Poison.png</icon>
+    </effect>
+    <effect id="13" name="Poisoned: Numb">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You have been poisoned and slowly loosing your consciousness.</description>
+        <parameter type="SOFT_HP" applytype="CONSUME"/>
+        <icon>art/2D/Effects/Poisoned_Numb.png</icon>
+    </effect>
+    <effect id="14" name="Poisoned: Crushing Weight">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You have been poisoned and feeling more and more tired.</description>
+        <parameter type="HARD_STAMINA" applytype="CONSUME"/>
+        <icon>art/2D/Effects/Grave_Weight.png</icon>
+    </effect>
+    <effect id="15" name="Poisoned: Stone Lungs">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You have been poisoned and can not catch your breath.</description>
+        <parameter type="SOFT_STAMINA" applytype="CONSUME"/>
+        <icon>art/2D/Effects/Poisoned_LungsOfStone.png</icon>
+    </effect>
+    <effect id="16" name="Poisoned: Eternal Sleep">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You have been poisoned and feel like you are about to loose consciousness.</description>
+        <parameter type="SOFT_HP" applytype="DECREASE"/>
+        <icon>art/2D/Effects/Poisoned_Eternal_Sleep.png</icon>
+    </effect>
+    <effect id="17" name="Poisoned: Suffocator">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You have been poisoned and wear out faster now.</description>
+        <parameter type="SOFT_STAMINA" applytype="DECREASE"/>
+        <icon>art/2D/Effects/Poisoned_Breathtaker.png</icon>
+    </effect>
+    <effect id="18" name="Balanced Breath">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You feel like having a second wind!</description>
+        <parameter type="SOFT_STAMINA" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Balanced_breath.png</icon>
+    </effect>
+    <effect id="19" name="Stronger">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel stronger!</description>
+        <parameter type="STR" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Stronger.png</icon>
+    </effect>
+    <effect id="20" name="Faster">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more agile!</description>
+        <parameter type="AGI" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Faster.png</icon>
+    </effect>
+    <effect id="21" name="Harder">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more hardier!</description>
+        <parameter type="WILL" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Harder.png</icon>
+    </effect>
+    <effect id="22" name="Clever">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself smarter!</description>
+        <parameter type="INT" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Clever.png</icon>
+    </effect>
+    <effect id="23" name="Tougher">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself tougher!</description>
+        <parameter type="CON" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Tougher.png</icon>
+    </effect>
+    <effect id="24" name="Poison Resistance">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more resistant to poisons!</description>
+        <parameter type="POISON_IMMUNE" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Poison_Resistance.png</icon>
+    </effect>
+    <effect id="25" name="Full">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You can not drink any more potions.</description>
+        <parameter type="DRINK_IMMUNE" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Full.png</icon>
+    </effect>
+    <effect id="26" name="Skill Raised: Forging">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more proficient!</description>
+        <parameter type="SKILL" skill="4" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Skill_Raised_Forging.png</icon>
+    </effect>
+    <effect id="27" name="Skill Raised: Armorsmithing">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more proficient!</description>
+        <parameter type="SKILL" skill="5" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Skill_Raised_Armorsmithing.png</icon>
+    </effect>
+    <effect id="28" name="Skill Raised: Carpentry">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more proficient!</description>
+        <parameter type="SKILL" skill="8" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Skill_Raised_Carpentry.png</icon>
+    </effect>
+    <effect id="29" name="Skill Raised: Bowcraft">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more proficient!</description>
+        <parameter type="SKILL" skill="9" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Skill_Raised_Bowcraft.png</icon>
+    </effect>
+    <effect id="30" name="Skill Raised: Warfare engineering">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more proficient!</description>
+        <parameter type="SKILL" skill="10" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Skill_Raised_Warfare_engineering.png</icon>
+    </effect>
+    <effect id="31" name="Skill Raised: Herbalism">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more proficient!</description>
+        <parameter type="SKILL" skill="13" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Skill_Raised_Herbalism.png</icon>
+    </effect>
+    <effect id="32" name="Skill Raised: Healing">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more proficient!</description>
+        <parameter type="SKILL" skill="14" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Skill_Raised_Healing.png</icon>
+    </effect>
+    <effect id="33" name="Skill Raised: Alchemy">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more proficient!</description>
+        <parameter type="SKILL" skill="15" applytype="INCREASE"/> 
+        <icon>art/2D/Effects/Skill_Raised_Alchemy.png</icon>
+    </effect>
+    <effect id="34" name="Skill Raised: Architecture">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more proficient!</description>
+        <parameter type="SKILL" skill="20" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Skill_Raised_Architecture.png</icon>
+    </effect>
+    <effect id="35" name="Skill Raised: Procuration">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more proficient!</description>
+        <parameter type="SKILL" skill="23" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Skill_Raised_Procuration.png</icon>
+    </effect>
+    <effect id="36" name="Skill Raised: Cooking">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more proficient!</description>
+        <parameter type="SKILL" skill="24" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Skill_Raised_Cooking.png</icon>
+    </effect>
+    <effect id="37" name="Skill Raised: Piety">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You feel yourself more proficient!</description>
+        <parameter type="SKILL" skill="54" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Skill_Raised_Piety.png</icon>
+    </effect>
+    <effect id="38" name="Fear">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are terribly scared!</description>
+        <parameter type="FEAR" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Fear.png</icon>
+    </effect>
+    <effect id="39" name="Power Strike!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>Next attack will be really DEVASTATING!</description>
+        <parameter type="DAMAGE" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Power_Strike.png</icon>
+    </effect>
+    <effect id="40" name="Defence!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You feel yourself more protected.</description>
+        <parameter type="DEFENCE" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Defence.png</icon>
+    </effect>
+    <effect id="41" name="Resting">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are resting now.</description>
+        <parameter type="RESTING" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Resting.png</icon>
+    </effect>
+    <effect id="42" name="Bed Rest (Wounds)">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>Your healer told you to avoid any damage!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Bed_Rest_Wounds.png</icon>
+    </effect>
+    <effect id="43" name="Bed Rest (Fracture) ">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>Your healer told you to avoid any damage!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Bed_Rest_Fracture.png</icon>
+    </effect>
+    <effect id="44" name="Bed Rest (Surgery)">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>Your healer told you to avoid any damage!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Bed_Rest_Surgery.png</icon>
+    </effect>
+    <effect id="45" name="Invulnerable">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>No direct damage is posible.</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Invulnerable.png</icon>
+    </effect>
+    <effect id="46" name="Criminal">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>Marked as Criminal.</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Criminal.png</icon>
+    </effect>
+    <effect id="47" name="Resurrected">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>Resurrected not long time ago.</description>
+        <parameter type="SICK" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Resurrection.png</icon>
+    </effect>
+    <effect id="48" name="Restore Hard Stamina">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>Your Hard Stamina is restoring</description>
+        <parameter type="HARD_STAMINA" applytype="REGENERATE"/>
+        <icon>art/2D/Effects/Restore_Hard_Stamina.png</icon>
+    </effect>
+    <effect id="49" name="Raise Maximum Soft Stamina">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>Your Soft Stamina is increased</description>
+        <parameter type="SOFT_STAMINA" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Raise_Maximum_Soft_Stamina.png</icon>
+    </effect>
+    <effect id="50" name="Reviving">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are returning to life</description>
+        <parameter type="SOFT_HP" applytype="REGENERATE"/>
+        <icon>art/2D/Effects/Reviving.png</icon>
+    </effect>
+    <effect id="51" name="Bed Rest">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>Your healer told you to avoid any damage!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Bed_rest.png</icon>
+    </effect>
+    <effect id="52" name="Luck">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You are lucky today!</description>
+        <parameter type="LUCK" applytype="INCREASE"/>
+        <icon>art/2D/Effects/Luck.png</icon>
+    </effect>
+    <effect id="53" name="Poisoning Duration">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Your weapon is full of venom</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Poison_Duration.png</icon>
+    </effect>
+    <effect id="54" name="Stopping Power!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Stop the next enemy with bolt</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/stopping_power.png</icon>
+    </effect>
+    <effect id="55" name="Piercing Bolt!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Bolt flying through enemy hordes</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/piercing_bolt.png</icon>
+    </effect>
+    <effect id="56" name="Arrow to the Knee!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Next victim will tell stories about it</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/arrow_to_the_knee.png</icon>
+    </effect>
+    <effect id="57" name="Volley">
+        <flags CanMove="FALSE" CanRun="FALSE" CanJump="FALSE" CanRotate="FALSE" CanOperate="FALSE" CanBeCanceled="TRUE"/>
+        <description>Rain of arrows</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/volley.png</icon>
+    </effect>
+    <effect id="58" name="Vulnerable">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Not the best time to get damage</description>
+        <parameter type="DEFENCE" applytype="DECREASE"/>
+        <icon>art/2D/Effects/Vulnerable.png</icon>
+    </effect>
+    <effect id="59" name="Unstoppable">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>Your horse will knock someone down and will not even slow!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Unstoppable.png</icon>
+    </effect>
+    <effect id="60" name="Emperor's Mercy">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>God is merciful!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Gods_Mercy.png</icon>
+    </effect>
+    <effect id="61" name="Iron Grip">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>Your grip your horse in a powerful way. There is no way to dismount you!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Iron_Grip.png</icon>
+    </effect>
+	<effect id="62" name="Arrow Stand">
+        <flags CanMove="FALSE" CanRun="FALSE" CanJump="FALSE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Taking new arrows from stand is much faster then from quiver</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Accelerated.png</icon>
+    </effect>
+    <effect id="63" name="Concentration">
+        <flags CanMove="FALSE" CanRun="FALSE" CanJump="FALSE" CanRotate="FALSE" CanOperate="FALSE" CanBeCanceled="FALSE"/>
+        <description>You are working</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/Effects/Craft.png</icon>
+    </effect>
+
+    <effect id="100" name="Barber's Competence!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Blah blah blah...</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/cripple_hit.png</icon>
+    </effect>
+    <effect id="101" name="Slashing Strike!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Blah blah blah...</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/cripple_hit.png</icon>
+    </effect>
+    
+    <effect id="102" name="Stunning Strike!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Blah blah blah...</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/cripple_hit.png</icon>
+    </effect>
+    
+    <effect id="103" name="Back-edge Strike!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Blah blah blah...</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/cripple_hit.png</icon>
+    </effect>
+    
+    <effect id="104" name="Crippling Stance">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Your strike can cripple bones!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/sh_crippling_strike.png</icon>
+    </effect>
+    
+    <effect id="105" name="Accurate Strike">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You strike with an unmatched accuracy!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/sh_accurate_touch.png</icon>
+    </effect>
+    
+    <effect id="106" name="Executioner's Competence!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You have skills of an executioner, and strike hard and true!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/sh_executioner_strike.png</icon>
+    </effect>
+    
+    <effect id="107" name="Toller's Strength">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You have strength of a toller!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/sh_toller_strike.png</icon>
+    </effect>
+    
+    <effect id="108" name="Masters's Strike">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You are a real master with an axe!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/sh_master_strike.png</icon>
+    </effect>
+    
+    <effect id="109" name="Demolishing Attack">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You can strike down even a mountain!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/sh_demolishing_attack.png</icon>
+    </effect>
+    
+    <effect id="110" name="Shoot from the Hip!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Blah blah blah...</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/cripple_hit.png</icon>
+    </effect>
+    
+    <effect id="111" name="Aim at the Feet!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>A shot to the feet can stop anybody!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/sh_shot_to_feet.png</icon>
+    </effect>
+    
+    <effect id="112" name="Fast Uncharge">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You can shoot faster with some energy weapons.</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/sh_fast_uncharge.png</icon>
+    </effect>
+    
+    <effect id="113" name="Fast Uncharge">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You can shoot faster with some energy weapons.</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/sh_fast_uncharge.png</icon>
+    </effect>
+    
+    <effect id="114" name="Hasty strike!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Blah blah blah...</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/cripple_hit.png</icon>
+    </effect>
+    
+    <effect id="115" name="Stopping Shot!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>A shot that can stop an avalanche.</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/cripple_hit.png</icon>
+    </effect>
+    
+    <effect id="116" name="Piercing Shot">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>No armor can stop that shot!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/sh_armor_piercing_shot.png</icon>
+    </effect>
+    
+    <effect id="117" name="Overcharged Shot">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>That shot is hot, and they'll know it!</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/sh_overcharged_shot.png</icon>
+    </effect>
+    
+    <effect id="118" name="Lance of Energy">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>A shining energy lance to pierce your enemies.</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/sh_lance_of_energy.png</icon>
+    </effect>
+    
+    <effect id="119" name="Knockdown Attack!">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Blah blah blah...</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/cripple_hit.png</icon>
+    </effect>
+
+    <effect id="120" name="Impenetrable">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Blah blah blah...</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/cripple_hit.png</icon>
+    </effect>
+
+    <effect id="121" name="Weightless">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Blah blah blah...</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/cripple_hit.png</icon>
+    </effect>
+
+    <effect id="122" name="Grounded">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>Blah blah blah...</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/cripple_hit.png</icon>
+    </effect>
+
+    <effect id="123" name="Unshakeable">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You are resistant to melee damage and immune to knockdown.</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/cripple_hit.png</icon>
+    </effect>
+
+    <effect id="124" name="Negation Field On">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE"/>
+        <description>You are resistant to melee damage and immune to knockdown.</description>
+        <parameter type="NONE" applytype="NONE"/>
+        <icon>art/2D/skills/abilities/cripple_hit.png</icon>
+    </effect>
+    <!-- Steam Hammer mod: one effect per skill, given by dump.sql for a skill at 100 (Data Build/skills_rework.pl) -->
+    <effect id="125" name="Grandmaster: Metallurgy">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Metallurgy: +10 to this skill.</description>
+        <parameter type="SKILL" skill="1" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Metallurgist.png</icon>
+    </effect>
+    <effect id="126" name="Grandmaster: Farming">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Farming: +10 to this skill.</description>
+        <parameter type="SKILL" skill="2" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Farming.png</icon>
+    </effect>
+    <effect id="127" name="Grandmaster: Blacksmithing">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Blacksmithing: +10 to this skill.</description>
+        <parameter type="SKILL" skill="3" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Blacksmith.png</icon>
+    </effect>
+    <effect id="128" name="Grandmaster: Engineering">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Engineering: +10 to this skill.</description>
+        <parameter type="SKILL" skill="4" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Engineer.png</icon>
+    </effect>
+    <effect id="129" name="Grandmaster: Alchemy">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Alchemy: +10 to this skill.</description>
+        <parameter type="SKILL" skill="5" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Alchemist.png</icon>
+    </effect>
+    <effect id="130" name="Grandmaster: Construction">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Construction: +10 to this skill.</description>
+        <parameter type="SKILL" skill="6" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Builder.png</icon>
+    </effect>
+    <effect id="131" name="Grandmaster: Common Actions">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Common Actions: +10 to this skill.</description>
+        <parameter type="SKILL" skill="7" applytype="INCREASE"/>
+        <icon>art/2D/skills/General_action.png</icon>
+    </effect>
+    <effect id="132" name="Grandmaster: Handgun Mastery">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Handgun Mastery: +10 to this skill.</description>
+        <parameter type="SKILL" skill="10" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Guns_Mastery.png</icon>
+    </effect>
+    <effect id="133" name="Grandmaster: Rifle Mastery">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Rifle Mastery: +10 to this skill.</description>
+        <parameter type="SKILL" skill="11" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Rifle_Mastery.png</icon>
+    </effect>
+    <effect id="134" name="Grandmaster: Tesla Handgun &amp; Rod Mastery">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Tesla Handgun &amp; Rod Mastery: +10 to this skill.</description>
+        <parameter type="SKILL" skill="12" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Tesla_Handgun.png</icon>
+    </effect>
+    <effect id="135" name="Grandmaster: Tesla Rifle &amp; Staff Mastery">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Tesla Rifle &amp; Staff Mastery: +10 to this skill.</description>
+        <parameter type="SKILL" skill="13" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Tesla_Gun.png</icon>
+    </effect>
+    <effect id="136" name="Grandmaster: Sword Mastery">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Sword Mastery: +10 to this skill.</description>
+        <parameter type="SKILL" skill="14" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Sword_mastery.png</icon>
+    </effect>
+    <effect id="137" name="Grandmaster: Two-Handed Sword Mastery">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Two-Handed Sword Mastery: +10 to this skill.</description>
+        <parameter type="SKILL" skill="15" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_thanded_swords.png</icon>
+    </effect>
+    <effect id="138" name="Grandmaster: Axe Mastery">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Axe Mastery: +10 to this skill.</description>
+        <parameter type="SKILL" skill="16" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_axes_mastery.png</icon>
+    </effect>
+    <effect id="139" name="Grandmaster: Two-Handed Axe Mastery">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Two-Handed Axe Mastery: +10 to this skill.</description>
+        <parameter type="SKILL" skill="17" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_ThandedAxes.png</icon>
+    </effect>
+    <effect id="140" name="Grandmaster: Heavy Weapons Mastery">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Heavy Weapons Mastery: +10 to this skill.</description>
+        <parameter type="SKILL" skill="18" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_thammer_mastery.png</icon>
+    </effect>
+    <effect id="141" name="Grandmaster: Melee Armor Mastery">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Melee Armor Mastery: +10 to this skill.</description>
+        <parameter type="SKILL" skill="19" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Melee_armor.png</icon>
+    </effect>
+    <effect id="142" name="Grandmaster: Ranged Armor Mastery">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Ranged Armor Mastery: +10 to this skill.</description>
+        <parameter type="SKILL" skill="20" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Ranged_armor.png</icon>
+    </effect>
+    <effect id="143" name="Grandmaster: Grounding Armor Mastery">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Grounding Armor Mastery: +10 to this skill.</description>
+        <parameter type="SKILL" skill="21" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Grounding_armor.png</icon>
+    </effect>
+    <effect id="144" name="Grandmaster: Shotgun &amp; Crossbow Mastery">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Shotgun &amp; Crossbow Mastery: +10 to this skill.</description>
+        <parameter type="SKILL" skill="22" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Shotguns_mastery.png</icon>
+    </effect>
+    <effect id="145" name="Grandmaster: Unarmed Combat">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Unarmed Combat: +10 to this skill.</description>
+        <parameter type="SKILL" skill="23" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Unarmed.png</icon>
+    </effect>
+    <effect id="146" name="Grandmaster: Artillery and Explosives">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Artillery and Explosives: +10 to this skill.</description>
+        <parameter type="SKILL" skill="24" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Artillery.png</icon>
+    </effect>
+    <effect id="147" name="Grandmaster: Piloting (Airships &amp; Jetpacks)">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Piloting (Airships &amp; Jetpacks): +10 to this skill.</description>
+        <parameter type="SKILL" skill="25" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Piloting.png</icon>
+    </effect>
+    <effect id="148" name="Grandmaster: Battle Survival">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Battle Survival: +10 to this skill.</description>
+        <parameter type="SKILL" skill="26" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_FirstAid.png</icon>
+    </effect>
+    <effect id="149" name="Grandmaster: Equipment Maintenance">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Equipment Maintenance: +10 to this skill.</description>
+        <parameter type="SKILL" skill="27" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Maintenance.png</icon>
+    </effect>
+    <effect id="150" name="Grandmaster: Mining">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Mining: +10 to this skill.</description>
+        <parameter type="SKILL" skill="81" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Metallurgist.png</icon>
+    </effect>
+    <effect id="151" name="Grandmaster: Forestry">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Forestry: +10 to this skill.</description>
+        <parameter type="SKILL" skill="82" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Farming.png</icon>
+    </effect>
+    <effect id="152" name="Grandmaster: Carpentry">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Carpentry: +10 to this skill.</description>
+        <parameter type="SKILL" skill="83" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Builder.png</icon>
+    </effect>
+    <effect id="153" name="Grandmaster: Animal Husbandry">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Animal Husbandry: +10 to this skill.</description>
+        <parameter type="SKILL" skill="84" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Farming.png</icon>
+    </effect>
+    <effect id="154" name="Grandmaster: Hunting &amp; Fishing">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Hunting &amp; Fishing: +10 to this skill.</description>
+        <parameter type="SKILL" skill="85" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Farming.png</icon>
+    </effect>
+    <effect id="155" name="Grandmaster: Tailoring">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Tailoring: +10 to this skill.</description>
+        <parameter type="SKILL" skill="86" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Alchemist.png</icon>
+    </effect>
+    <effect id="156" name="Grandmaster: Cooking &amp; Household">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Cooking &amp; Household: +10 to this skill.</description>
+        <parameter type="SKILL" skill="87" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Farming.png</icon>
+    </effect>
+    <effect id="157" name="Grandmaster: Gathering">
+        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE"/>
+        <description>You are a grandmaster of Gathering: +10 to this skill.</description>
+        <parameter type="SKILL" skill="88" applytype="INCREASE"/>
+        <icon>art/2D/skills/sh_Farming.png</icon>
+    </effect>
+
+
+    
+    
+</effects>

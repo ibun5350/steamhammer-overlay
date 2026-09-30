@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <body_parts>
+    
+        <!-- "Technocrate male" female="no" vik="no" mon="no" sm="no" -->
+        
+        <!-- головы tc male -->
+
+        <part type="head" id="0" female="no" vik="no" mon="no" sm="no">  <!-- голова tc -->
+            <!-- первая голова -->
+            <mesh>tc_Eyes_A</mesh>
+            <mesh>tc_head_A</mesh>
+        </part>
+        
+        <part type="head" id="1" female="no" sm="no"> 
+            <!-- вторая голова -->
+            <mesh>tc_head_B</mesh>
+            <mesh>tc_eyes_B</mesh>
+        </part>
+        <part type="head" id="2" female="no" sm="no"> 
+            <!-- третья голова -->
+            <mesh>tc_head_C</mesh>
+            <mesh>tc_eyes_C</mesh>
+        </part>
+        <part type="head" id="3" female="no" sm="no"> 
+            <!-- четвертая голова -->
+            <mesh>tc_head_D</mesh>
+            <mesh>tc_eyes_D</mesh>
+        </part>
+
+        <!-- жопы tc male-->
+
+        <part type="hips" id="0" female="no" vik="no" mon="no" sm="no">  <!-- жопа tc -->
+            <mesh>tc_swimming_rubaha</mesh>
+        </part>
+
+        <!-- тело tc male -->
+
+        <part type="torso" id="0" female="no" vik="no" mon="no" sm="no"> <!-- торс tc -->
+            <mesh>tc_swimming_body</mesh>
+        </part>
+
+        <!-- волосы tc male -->
+         
+        <part type="hair" id="0" female="no" vik="no" mon="no" sm="no">
+        </part>
+        <part type="hair" id="1" female="no" vik="no" mon="no" sm="no">
+        	<mesh>HairR</mesh>  
+        </part>
+        <part type="hair" id="2" female="no" vik="no" mon="no" sm="no">
+            <mesh>HairsU</mesh>
+        </part>
+        <part type="hair" id="3" female="no" vik="no" mon="no" sm="no">
+            <mesh>HairT</mesh>   
+        </part>
+
+      
+        
+        <!-- бороды tc male-->
+
+        <part type="beard" id="0" female="no" tc="no" sm="no">
+        </part>
+        <part type="beard" id="1" female="no" vik="no" mon="no" sm="no">
+        	<mesh>usC</mesh>
+        </part>
+        <part type="beard" id="2" female="no" vik="no" mon="no" sm="no">
+        	<mesh>usF</mesh>
+        </part>
+        <part type="beard" id="3" female="no" vik="no" mon="no" sm="no">
+        	<mesh>usd</mesh>
+        </part>
+        <part type="beard" id="4" female="no" vik="no" mon="no" sm="no">
+        	<mesh>BakiL</mesh>
+        	<mesh>usC</mesh>
+        </part>
+        <part type="beard" id="5" female="no" vik="no" mon="no" sm="no">
+        	<mesh>beardL</mesh>
+        </part>
+        <part type="beard" id="6" female="no" vik="no" mon="no" sm="no">
+        	<mesh>beardBig</mesh>
+        </part>
+        <part type="beard" id="7" female="no" vik="no" mon="no" sm="no">
+        	<mesh>espaniol</mesh>
+        </part>
+        <part type="beard" id="8" female="no" vik="no" mon="no" sm="no">
+        	<mesh>espaniol</mesh>
+        	<mesh>usd</mesh>
+        </part>
+        
+        <!-- End of Technocrate male -->
+        
+        <!-- "Acribian male" (sh_acribian_male.dts): LiF male head/hair/beard + SH Acribian outfit -->
+
+        <part type="ears" id="0" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Head_Eur_v1_Ear</mesh>
+        </part>
+        <part type="head" id="0" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Head_Eur_v1_Eye</mesh>
+            <mesh>Male_Head_Eur_v1_Face</mesh>
+        </part>
+        <part type="ears" id="1" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Head_Eur_v2_Ear</mesh>
+        </part>
+        <part type="head" id="1" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Head_Eur_v2_Eye</mesh>
+            <mesh>Male_Head_Eur_v2_Face</mesh>
+        </part>
+        <part type="ears" id="2" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Head_Eur_v3_Ear</mesh>
+        </part>
+        <part type="head" id="2" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Head_Eur_v3_Eye</mesh>
+            <mesh>Male_Head_Eur_v3_Face</mesh>
+        </part>
+        <part type="hair" id="0" female="no" tc="no" vik="no" mon="no">
+        </part>
+        <part type="hair" id="1" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Hair_All_v1_up</mesh>
+            <helmet_mesh>Male_Hair_All_v1_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="2" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Hair_All_v2_up</mesh>
+            <helmet_mesh>Male_Hair_All_v2_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="3" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Hair_All_v4_up</mesh>
+            <helmet_mesh>Male_Hair_All_v4_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="4" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Hair_Eur_v1_up</mesh>
+        </part>
+        <part type="hair" id="5" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Hair_Eur_v2_up</mesh>
+            <helmet_mesh>Male_Hair_Eur_v2_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="6" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Hair_Eur_v4_up</mesh>
+        </part>
+        <part type="hair" id="7" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Hair_Eur_v3_up</mesh>
+        </part>
+        <part type="hair" id="8" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Hair_All_v3_up</mesh>
+        </part>
+        <part type="beard" id="0" female="no" tc="no" vik="no" mon="no">
+        </part>
+        <part type="beard" id="1" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Beard_All_v3_up</mesh>
+            <helmet_mesh>Male_Beard_All_v3_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="2" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Beard_All_v4_up</mesh>
+            <helmet_mesh>Male_Beard_All_v4_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="3" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Beard_Eur_v1_up</mesh>
+            <helmet_mesh>Male_Beard_Eur_v1_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="4" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Beard_Eur_v2_up</mesh>
+            <helmet_mesh>Male_Beard_Eur_v2_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="5" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Beard_Eur_v3_up</mesh>
+            <helmet_mesh>Male_Beard_Eur_v3_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="6" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Beard_Eur_v4_up</mesh>
+            <helmet_mesh>Male_Beard_Eur_v4_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="7" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Beard_All_v1_up</mesh>
+            <helmet_mesh>Male_Beard_All_v1_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="8" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Beard_All_v2_up</mesh>
+            <helmet_mesh>Male_Beard_All_v2_cut</helmet_mesh>
+        </part>
+        <part type="torso" id="0" female="no" tc="no" vik="no" mon="no">
+            <mesh>shirt</mesh>
+        </part>
+        <part type="hips" id="0" female="no" tc="no" vik="no" mon="no">
+            <mesh>pants</mesh>
+        </part>
+        <part type="arms" id="0" female="no" tc="no" vik="no" mon="no">
+            <mesh>glove</mesh>
+        </part>
+        <part type="feet" id="0" female="no" tc="no" vik="no" mon="no">
+            <mesh>Male_Body_v1_feet</mesh>
+            <helmet_mesh>Male_Body_v1_feet</helmet_mesh>
+        </part>
+
+        <!-- End of Acribian male -->
+
+        <!-- "Female" (sh_female.dts): LiF European female heads/hair shared, default outfit per faction -->
+
+        <part type="ears" id="0" male="no" vik="no" mon="no">
+            <mesh>Female_Head_Eur_v1_Ear</mesh>
+        </part>
+        <part type="head" id="0" male="no" vik="no" mon="no">
+            <mesh>Female_Head_Eur_v1_Eye</mesh>
+            <mesh>Female_Head_Eur_v1_Face</mesh>
+        </part>
+        <part type="ears" id="1" male="no" vik="no" mon="no">
+            <mesh>Female_Head_Eur_v2_Ear</mesh>
+        </part>
+        <part type="head" id="1" male="no" vik="no" mon="no">
+            <mesh>Female_Head_Eur_v2_Eye</mesh>
+            <mesh>Female_Head_Eur_v2_Face</mesh>
+        </part>
+        <part type="ears" id="2" male="no" vik="no" mon="no">
+            <mesh>Female_Head_Eur_v3_Ear</mesh>
+        </part>
+        <part type="head" id="2" male="no" vik="no" mon="no">
+            <mesh>Female_Head_Eur_v3_Eye</mesh>
+            <mesh>Female_Head_Eur_v3_Face</mesh>
+        </part>
+        <part type="hair" id="0" male="no" vik="no" mon="no">
+            <mesh>Female_Hair_All_v1_up</mesh>
+            <helmet_mesh>Female_Hair_All_v1_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="1" male="no" vik="no" mon="no">
+            <mesh>Female_Hair_All_v3_up</mesh>
+            <helmet_mesh>Female_Hair_All_v3_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="2" male="no" vik="no" mon="no">
+            <mesh>Female_Hair_Eur_v2_up</mesh>
+            <helmet_mesh>Female_Hair_Eur_v2_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="3" male="no" vik="no" mon="no">
+            <mesh>Female_Hair_Eur_v3_up</mesh>
+        </part>
+        <part type="hair" id="4" male="no" vik="no" mon="no">
+            <mesh>Female_Hair_Eur_v1_up</mesh>
+            <helmet_mesh>Female_Hair_Eur_v1_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="5" male="no" vik="no" mon="no">
+            <mesh>Female_Hair_All_v2_up</mesh>
+        </part>
+        <!-- Victorian female default outfit: as the Victorian male (tc_swimming_rubaha in hips); body parts are the _u copies with the skin under the undersuit sunk (dts_undercut.pl) -->
+        <part type="torso" id="0" male="no" vik="no" mon="no" sm="no">
+            <mesh>Female_Body_v1_torso_u</mesh>
+            <helmet_mesh>Female_Body_v1_torso_B</helmet_mesh>
+            <helmet_mesh>Female_Antiseam</helmet_mesh>
+        </part>
+        <part type="shoulders" id="0" male="no" vik="no" mon="no" sm="no">
+            <mesh>Female_Body_v1_shoulders_u</mesh>
+        </part>
+        <part type="forearms" id="0" male="no" vik="no" mon="no" sm="no">
+            <mesh>Female_Body_v1_forearms</mesh>
+        </part>
+        <part type="arms" id="0" male="no" vik="no" mon="no" sm="no">
+            <mesh>Female_Body_v1_arm</mesh>
+            <helmet_mesh>Female_Body_v1_arm</helmet_mesh>
+        </part>
+        <part type="hips" id="0" male="no" vik="no" mon="no" sm="no">
+            <mesh>Female_Body_v1_hips_u</mesh>
+            <mesh>tc_swimming_rubaha</mesh>
+            <helmet_mesh>Female_Body_v1_hips_B</helmet_mesh>
+        </part>
+        <part type="shin" id="0" male="no" vik="no" mon="no" sm="no">
+            <mesh>Female_Body_v1_shin</mesh>
+        </part>
+        <part type="feet" id="0" male="no" vik="no" mon="no" sm="no">
+            <mesh>Female_Body_v1_feet</mesh>
+        </part>
+
+        <!-- Acribian female default outfit: as the Acribian male (shirt / pants / glove, bare feet); her own LiF arms/hands (the shirt's male hands are hidden in sh_female.dts, dts_hidehands.pl) -->
+        <part type="torso" id="0" male="no" vik="no" mon="no" tc="no">
+            <mesh>Female_Body_v1_torso_block</mesh>
+            <mesh>shirt</mesh>
+        </part>
+        <part type="hips" id="0" male="no" vik="no" mon="no" tc="no">
+            <mesh>pants</mesh>
+        </part>
+        <part type="arms" id="0" male="no" vik="no" mon="no" tc="no">
+            <mesh>Female_Body_v1_arm</mesh>
+            <mesh>Female_Body_v1_forearms</mesh>   <!-- her own forearm: the shirt's built-in forearm skin sits inside it, its implants stand out (dts_propfit.pl PROP_FOREARM_SINK) -->
+            <mesh>glove</mesh>
+            <helmet_mesh>Female_Body_v1_arm</helmet_mesh>
+        </part>
+        <part type="feet" id="0" male="no" vik="no" mon="no" tc="no">
+            <mesh>Female_Body_v1_feet</mesh>
+            <helmet_mesh>Female_Body_v1_feet</helmet_mesh>
+        </part>
+
+
+        <!-- End of Female -->
+
+        <!-- Acribian creation marker (Victorian + race 2, see gui/scripts/characterOverride.cs
+             and scripts/server/sh_acribianTrigger.cs): the same parts as the Acribian male and
+             female sets, so the server accepts the marker. Race 1 players never see them. -->
+
+        <part type="ears" id="0" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Head_Eur_v1_Ear</mesh>
+        </part>
+        <part type="head" id="0" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Head_Eur_v1_Eye</mesh>
+            <mesh>Male_Head_Eur_v1_Face</mesh>
+        </part>
+        <part type="ears" id="1" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Head_Eur_v2_Ear</mesh>
+        </part>
+        <part type="ears" id="2" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Head_Eur_v3_Ear</mesh>
+        </part>
+        <part type="hair" id="0" female="no" eur="no" mon="no" sm="no">
+        </part>
+        <part type="hair" id="1" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Hair_All_v1_up</mesh>
+            <helmet_mesh>Male_Hair_All_v1_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="2" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Hair_All_v2_up</mesh>
+            <helmet_mesh>Male_Hair_All_v2_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="3" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Hair_All_v4_up</mesh>
+            <helmet_mesh>Male_Hair_All_v4_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="4" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Hair_Eur_v1_up</mesh>
+        </part>
+        <part type="hair" id="5" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Hair_Eur_v2_up</mesh>
+            <helmet_mesh>Male_Hair_Eur_v2_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="6" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Hair_Eur_v4_up</mesh>
+        </part>
+        <part type="hair" id="7" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Hair_Eur_v3_up</mesh>
+        </part>
+        <part type="hair" id="8" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Hair_All_v3_up</mesh>
+        </part>
+        <part type="beard" id="0" female="no" eur="no" mon="no" sm="no">
+        </part>
+        <part type="beard" id="1" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Beard_All_v3_up</mesh>
+            <helmet_mesh>Male_Beard_All_v3_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="2" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Beard_All_v4_up</mesh>
+            <helmet_mesh>Male_Beard_All_v4_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="3" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Beard_Eur_v1_up</mesh>
+            <helmet_mesh>Male_Beard_Eur_v1_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="4" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Beard_Eur_v2_up</mesh>
+            <helmet_mesh>Male_Beard_Eur_v2_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="5" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Beard_Eur_v3_up</mesh>
+            <helmet_mesh>Male_Beard_Eur_v3_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="6" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Beard_Eur_v4_up</mesh>
+            <helmet_mesh>Male_Beard_Eur_v4_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="7" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Beard_All_v1_up</mesh>
+            <helmet_mesh>Male_Beard_All_v1_cut</helmet_mesh>
+        </part>
+        <part type="beard" id="8" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Beard_All_v2_up</mesh>
+            <helmet_mesh>Male_Beard_All_v2_cut</helmet_mesh>
+        </part>
+        <part type="torso" id="0" female="no" eur="no" mon="no" sm="no">
+            <mesh>shirt</mesh>
+        </part>
+        <part type="hips" id="0" female="no" eur="no" mon="no" sm="no">
+            <mesh>pants</mesh>
+        </part>
+        <part type="arms" id="0" female="no" eur="no" mon="no" sm="no">
+            <mesh>glove</mesh>
+        </part>
+        <part type="feet" id="0" female="no" eur="no" mon="no" sm="no">
+            <mesh>Male_Body_v1_feet</mesh>
+            <helmet_mesh>Male_Body_v1_feet</helmet_mesh>
+        </part>
+        <part type="ears" id="0" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Head_Eur_v1_Ear</mesh>
+        </part>
+        <part type="head" id="0" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Head_Eur_v1_Eye</mesh>
+            <mesh>Female_Head_Eur_v1_Face</mesh>
+        </part>
+        <part type="ears" id="1" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Head_Eur_v2_Ear</mesh>
+        </part>
+        <part type="head" id="1" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Head_Eur_v2_Eye</mesh>
+            <mesh>Female_Head_Eur_v2_Face</mesh>
+        </part>
+        <part type="ears" id="2" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Head_Eur_v3_Ear</mesh>
+        </part>
+        <part type="head" id="2" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Head_Eur_v3_Eye</mesh>
+            <mesh>Female_Head_Eur_v3_Face</mesh>
+        </part>
+        <part type="hair" id="0" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Hair_All_v1_up</mesh>
+            <helmet_mesh>Female_Hair_All_v1_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="1" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Hair_All_v3_up</mesh>
+            <helmet_mesh>Female_Hair_All_v3_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="2" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Hair_Eur_v2_up</mesh>
+            <helmet_mesh>Female_Hair_Eur_v2_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="3" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Hair_Eur_v3_up</mesh>
+        </part>
+        <part type="hair" id="4" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Hair_Eur_v1_up</mesh>
+            <helmet_mesh>Female_Hair_Eur_v1_cut</helmet_mesh>
+        </part>
+        <part type="hair" id="5" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Hair_All_v2_up</mesh>
+        </part>
+        <part type="torso" id="0" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Body_v1_torso_block</mesh>
+            <mesh>shirt</mesh>
+        </part>
+        <part type="hips" id="0" male="no" eur="no" mon="no" sm="no">
+            <mesh>pants</mesh>
+        </part>
+        <part type="arms" id="0" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Body_v1_arm</mesh>
+            <mesh>Female_Body_v1_forearms</mesh>
+            <mesh>glove</mesh>
+            <helmet_mesh>Female_Body_v1_arm</helmet_mesh>
+        </part>
+        <part type="feet" id="0" male="no" eur="no" mon="no" sm="no">
+            <mesh>Female_Body_v1_feet</mesh>
+            <helmet_mesh>Female_Body_v1_feet</helmet_mesh>
+        </part>
+
+
+        <!-- End of Acribian creation marker -->
+    </body_parts>
+
+	<colors>
+
+        <!-- Technocrate male hair colors -->
+
+		<color hairid="0" female="no" vik="no" mon="no" sm="no">194	194	194 255</color>		
+		<color hairid="1" female="no" vik="no" mon="no" sm="no">120	110	97 255</color>		
+		<color hairid="2" female="no" vik="no" mon="no" sm="no">92	86	82 255</color>
+		<color hairid="3" female="no" vik="no" mon="no" sm="no">158	108	79 255</color>
+        
+        <!-- Technocrate male skin colors -->
+
+		<color skinid="0" female="no" vik="no" mon="no" sm="no">255 255 255 255</color>
+		<color skinid="1" female="no" vik="no" mon="no" sm="no">232 227 222 255</color>
+		<color skinid="2" female="no" vik="no" mon="no" sm="no">215 208 203 255</color>
+
+        <!-- Steammage male hair colors -->
+
+		<color hairid="0" female="no" vik="no" mon="no" tc="no">194	194	194 255</color>
+        
+        <!-- Steammage male skin colors -->
+
+		<color skinid="0" female="no" vik="no" mon="no" tc="no">255 255 255 255</color>
+		
+
+        <!-- Female hair colors (Victorian and Acribian) -->
+
+		<color hairid="0" male="no" vik="no" mon="no">194	194	194 255</color>
+		<color hairid="1" male="no" vik="no" mon="no">120	110	97 255</color>
+		<color hairid="2" male="no" vik="no" mon="no">92	86	82 255</color>
+		<color hairid="3" male="no" vik="no" mon="no">158	108	79 255</color>
+
+        <!-- Female skin colors (Victorian and Acribian) -->
+
+		<color skinid="0" male="no" vik="no" mon="no">255 255 255 255</color>
+		<color skinid="1" male="no" vik="no" mon="no">232 227 222 255</color>
+		<color skinid="2" male="no" vik="no" mon="no">215 208 203 255</color>
+
+        <!-- Acribian creation marker colors (Victorian + race 2): same as Steammage male and Female -->
+
+		<color hairid="0" female="no" eur="no" mon="no" sm="no">194	194	194 255</color>
+		<color skinid="0" female="no" eur="no" mon="no" sm="no">255 255 255 255</color>
+		<color hairid="0" male="no" eur="no" mon="no" sm="no">194	194	194 255</color>
+		<color hairid="1" male="no" eur="no" mon="no" sm="no">120	110	97 255</color>
+		<color hairid="2" male="no" eur="no" mon="no" sm="no">92	86	82 255</color>
+		<color hairid="3" male="no" eur="no" mon="no" sm="no">158	108	79 255</color>
+		<color skinid="0" male="no" eur="no" mon="no" sm="no">255 255 255 255</color>
+		<color skinid="1" male="no" eur="no" mon="no" sm="no">232 227 222 255</color>
+		<color skinid="2" male="no" eur="no" mon="no" sm="no">215 208 203 255</color>
+		
+	</colors>
+
+	<features>
+		<!--
+		<feature faceid="0">Tatu_Number_01_mat</feature>
+		<feature faceid="1">Tatu_Number_02_mat</feature>
+
+		<feature bodyid="0">Tatu_Number_03_mat</feature>
+		<feature bodyid="1">Scar_Number_01_mat</feature>
+		-->
+	</features>
+
+
+</xml>

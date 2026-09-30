@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+<lang_pack_version>1</lang_pack_version>
+<strings>
+<string id="1">Metalurji</string>
+<string id="2">Çiftçilik</string>
+<string id="3">Demircilik</string>
+<string id="4">Mühendislik</string>
+<string id="5">Simyacılık</string>
+<string id="6">İnşaat</string>
+<string id="7">Genel eylemler</string>
+<string id="8"></string>
+<string id="10">Tabanca ustalığı</string>
+<string id="11">Tüfek ustalığı</string>
+<string id="12">Tesla tabanca ve çubuk ustalığı</string>
+<string id="13">Tesla tüfek ve asa ustalığı</string>
+<string id="14">Kılıç ustalığı</string>
+<string id="15">Çift elli kılıç ustalığı</string>
+<string id="16">Balta ustalığı</string>
+<string id="17">Çifte elli balta ustalığı</string>
+<string id="18">Ağır silah ustalığı</string>
+<string id="19">Ağır zırh kullanma</string>
+<string id="20">Menzilli zırh kullanma</string>
+<string id="21">Topraklama zırhı kullanma</string>
+<string id="22">Av tüfeği ve arbalet ustalığı</string>
+<string id="23">Yakın dövüş</string>
+<string id="24">Toplar ve patlayıcılar</string>
+<string id="25">Pilotluk (hava gemileri ve jetpackler)</string>
+<string id="26">İlk Yardım</string>
+<string id="27">Ekipman bakımı</string>
+<string id="81">Madencilik</string>
+<string id="82">Ormancılık</string>
+<string id="83">Marangozluk</string>
+<string id="84">Hayvancılık</string>
+<string id="85">Avcılık ve Balıkçılık</string>
+<string id="86">Terzilik</string>
+<string id="87">Aşçılık ve Ev İşleri</string>
+<string id="88">Toplayıcılık</string>
+</strings></root>

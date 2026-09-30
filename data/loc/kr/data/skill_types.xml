@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+<lang_pack_version>1</lang_pack_version>
+<strings>
+<string id="1">야금술</string>
+<string id="2">농사</string>
+<string id="3">제철</string>
+<string id="4">엔지니어링</string>
+<string id="5">연금술</string>
+<string id="6">건설</string>
+<string id="7">일반 행동</string>
+<string id="8"></string>
+<string id="10">핸드건 마스터리</string>
+<string id="11">라이플 마스터리</string>
+<string id="12">테슬라 핸드건 &amp; 로드 마스터리</string>
+<string id="13">테슬라 라이플 &amp; 스태프 마스터리</string>
+<string id="14">소드 마스터리</string>
+<string id="15">투 핸디드 소드 마스터리</string>
+<string id="16">액스 마스터리</string>
+<string id="17">투 핸디드 액스 마스터리</string>
+<string id="18">헤비 웨폰 마스터리</string>
+<string id="19">멜레 아머 마스터리</string>
+<string id="20">레인지드 아머 마스터리</string>
+<string id="21">그라운딩 아머 마스터리</string>
+<string id="22">샷건 &amp; 석궁 마스터리</string>
+<string id="23">비무장 전투</string>
+<string id="24">포탄과 폭탄</string>
+<string id="25">조타 (비행선 &amp; 제트팩)</string>
+<string id="26">배틀 서바이벌</string>
+<string id="27">장비 보수</string>
+<string id="81">채광</string>
+<string id="82">임업</string>
+<string id="83">목공</string>
+<string id="84">축산</string>
+<string id="85">사냥과 낚시</string>
+<string id="86">재봉</string>
+<string id="87">요리와 가사</string>
+<string id="88">채집</string>
+</strings></root>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+<lang_pack_version>1</lang_pack_version>
+<strings>
+<string id="1">冶金</string>
+<string id="2">農業</string>
+<string id="3">鍛冶</string>
+<string id="4">工学</string>
+<string id="5">錬金術</string>
+<string id="6">建設</string>
+<string id="7">基本行動</string>
+<string id="8"></string>
+<string id="10">銃の習得</string>
+<string id="11">ライフルの習得</string>
+<string id="12">テスラ銃とロッドの習得</string>
+<string id="13">テスラライフルと杖の習得</string>
+<string id="14">剣の習得</string>
+<string id="15">両手剣の習得</string>
+<string id="16">斧の習得</string>
+<string id="17">両手斧の習得</string>
+<string id="18">重武器の習得</string>
+<string id="19">戦士の鎧の習得</string>
+<string id="20">射手の鎧の習得</string>
+<string id="21">鎧の習得</string>
+<string id="22">散弾銃とクロスボウの習得</string>
+<string id="23">格闘</string>
+<string id="24">大砲・爆薬</string>
+<string id="25">操縦（飛行船とジェットパック）</string>
+<string id="26">サバイバル</string>
+<string id="27">装備のメンテナンス</string>
+<string id="81">採掘</string>
+<string id="82">林業</string>
+<string id="83">木工</string>
+<string id="84">畜産</string>
+<string id="85">狩猟と釣り</string>
+<string id="86">裁縫</string>
+<string id="87">料理と家事</string>
+<string id="88">採集</string>
+</strings></root>

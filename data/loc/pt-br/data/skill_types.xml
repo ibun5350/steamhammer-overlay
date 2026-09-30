@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+<lang_pack_version>1</lang_pack_version>
+<strings>
+<string id="1">Metalurgia</string>
+<string id="2">Agricultura</string>
+<string id="3">Ferraria</string>
+<string id="4">Engenharia</string>
+<string id="5">Alquimia</string>
+<string id="6">Construção</string>
+<string id="7">Ações Comuns</string>
+<string id="8"></string>
+<string id="10">Mestre da Arma de Mão</string>
+<string id="11">Mestre do Rifle</string>
+<string id="12">Mestre da Arma de Mão Tesla e Varas</string>
+<string id="13">Mestre do Rifle Tesla e Cajados</string>
+<string id="14">Mestre da Espada</string>
+<string id="15">Mestre da Espada de Duas Mãos</string>
+<string id="16">Mestre do Machado</string>
+<string id="17">Mestre do Machado de Duas Mãos</string>
+<string id="18">Mestre das Armas Pesadas</string>
+<string id="19">Mestre da Armadura para Corpo-a-corpo</string>
+<string id="20">Mestre da Armadura para Distância</string>
+<string id="21">Mestre da Armadura de Aterramento</string>
+<string id="22">Mestre das Espingardas e Bestas</string>
+<string id="23">Mestre do Combate Desarmado</string>
+<string id="24">Artilharia e Explosivos</string>
+<string id="25">Pilotagem (Dirigíveis e Jetpacks)</string>
+<string id="26">Primeiros Socorros</string>
+<string id="27">Manutenção do Equipamento</string>
+<string id="81">Mineração</string>
+<string id="82">Silvicultura</string>
+<string id="83">Carpintaria</string>
+<string id="84">Pecuária</string>
+<string id="85">Caça e Pesca</string>
+<string id="86">Alfaiataria</string>
+<string id="87">Culinária e Lar</string>
+<string id="88">Coleta</string>
+</strings></root>

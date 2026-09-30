@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+<lang_pack_version>1</lang_pack_version>
+<strings>
+<string id="1">Métallurgie</string>
+<string id="2">Agriculture</string>
+<string id="3">Forge</string>
+<string id="4">Ingénierie</string>
+<string id="5">Alchimie</string>
+<string id="6">Construction</string>
+<string id="7">Actions courantes</string>
+<string id="8"></string>
+<string id="10">Maîtrise du pistolet</string>
+<string id="11">Maîtrise du fusil</string>
+<string id="12">Maîtrise du pistolet Tesla et des baguettes</string>
+<string id="13">Maîtrise du fusil Tesla et des bâtons</string>
+<string id="14">Maîtrise de l’épée</string>
+<string id="15">Maîtrise de l’épée à deux mains</string>
+<string id="16">Maîtrise de la hache</string>
+<string id="17">Maîtrise de la hache à deux mains</string>
+<string id="18">Maîtrise des armes lourdes</string>
+<string id="19">Maîtrise de l’armure de contact</string>
+<string id="20">Maîtrise de l’armure de combat à distance</string>
+<string id="21">Maîtrise de l’armure d’isolation électrique</string>
+<string id="22">Maîtrise du fusil de chasse et de l’arbalète</string>
+<string id="23">Combat à mains nues</string>
+<string id="24">Artillerie et explosifs</string>
+<string id="25">Pilotage (dirigeables et jetpacks)</string>
+<string id="26">Premiers secours</string>
+<string id="27">Maintien de l’équipement</string>
+<string id="81">Exploitation minière</string>
+<string id="82">Sylviculture</string>
+<string id="83">Charpenterie</string>
+<string id="84">Élevage</string>
+<string id="85">Chasse et pêche</string>
+<string id="86">Couture</string>
+<string id="87">Cuisine et foyer</string>
+<string id="88">Cueillette</string>
+</strings></root>

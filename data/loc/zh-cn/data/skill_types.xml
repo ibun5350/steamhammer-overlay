@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+<lang_pack_version>1</lang_pack_version>
+<strings>
+<string id="1">冶金</string>
+<string id="2">农业</string>
+<string id="3">打铁</string>
+<string id="4">工程</string>
+<string id="5">炼金</string>
+<string id="6">建筑</string>
+<string id="7">一般动作</string>
+<string id="8"></string>
+<string id="10">精通机关枪</string>
+<string id="11">精通步枪</string>
+<string id="12">精通特斯拉机关枪与短杖</string>
+<string id="13">精通特斯拉步枪与长杖</string>
+<string id="14">精通剑</string>
+<string id="15">精通双手剑</string>
+<string id="16">精通斧头</string>
+<string id="17">精通双手斧</string>
+<string id="18">精通重型武器</string>
+<string id="19">精通混战铠甲</string>
+<string id="20">精通远程铠甲</string>
+<string id="21">精通防触电铠甲</string>
+<string id="22">精通猎枪与弩</string>
+<string id="23">非武装战斗</string>
+<string id="24">大炮和炸药</string>
+<string id="25">操控（飞艇与喷气背包）</string>
+<string id="26">战斗急救</string>
+<string id="27">装备维修</string>
+<string id="81">采矿</string>
+<string id="82">林业</string>
+<string id="83">木工</string>
+<string id="84">畜牧</string>
+<string id="85">狩猎与钓鱼</string>
+<string id="86">裁缝</string>
+<string id="87">烹饪与家务</string>
+<string id="88">采集</string>
+</strings></root>

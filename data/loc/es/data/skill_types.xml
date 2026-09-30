@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+<lang_pack_version>1</lang_pack_version>
+<strings>
+<string id="1">Metalurgia</string>
+<string id="2">Agricultura</string>
+<string id="3">Herrería</string>
+<string id="4">Ingeniería</string>
+<string id="5">Alquimia</string>
+<string id="6">Construcción</string>
+<string id="7">Acciones comunes</string>
+<string id="8"></string>
+<string id="10">Maestría de pistola</string>
+<string id="11">Maestría de rifle</string>
+<string id="12">Maestría de pistola Tesla y varas</string>
+<string id="13">Maestría de rifle Tesla y bastones</string>
+<string id="14">Maestría de espada</string>
+<string id="15">Maestría de espada de dos manos</string>
+<string id="16">Maestría de hacha</string>
+<string id="17">Maestría de hacha de dos manos</string>
+<string id="18">Maestría de armas pesadas</string>
+<string id="19">Maestría de armadura de cuerpo a cuerpo</string>
+<string id="20">Maestría de armadura a distancia</string>
+<string id="21">Maestría de armadura de pulverizado</string>
+<string id="22">Maestría de escopeta y ballesta</string>
+<string id="23">Maestría de pelea con los puños</string>
+<string id="24">Artillería y explosivos</string>
+<string id="25">Pilotaje (dirigibles y mochilas propulsoras)</string>
+<string id="26">Supervivencia de batalla</string>
+<string id="27">Mantenimiento de equipo</string>
+<string id="81">Minería</string>
+<string id="82">Silvicultura</string>
+<string id="83">Carpintería</string>
+<string id="84">Ganadería</string>
+<string id="85">Caza y pesca</string>
+<string id="86">Sastrería</string>
+<string id="87">Cocina y hogar</string>
+<string id="88">Recolección</string>
+</strings></root>
